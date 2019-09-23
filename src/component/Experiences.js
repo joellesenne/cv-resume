@@ -1,8 +1,8 @@
 import React from 'react'
 
 const experiences = [
-	{id: 1, description: 'Création auto entreprise – Développeur Web', date: "avril. 2019 – Aujourd'hui", label: 'Joël Lesenne', content: "Inscription à la chambre de commerce et de l'URSSAF – Création du site  web avec Gatsby.js et du nom de domaine – Création du Logo et carte de  visite."},
-	{id: 2, description: 'Administrateur Informatique – Bénévole', date: 'sept. 2015 – sept. 2017', label: 'Accord2mains', content: "Mise en place d'un serveur WEB et d'un CMS pour la gestion des adhérents – Création d'une page web  et du nom de domaine – Création du Logo et divers Flayers publicitaires."}
+	{id: 1, description: "Création auto entreprise – Développeur Web", date: "avril. 2019 – Aujourd'hui", label: "Joël Lesenne", content: "Inscription à la chambre de commerce et de l'URSSAF – Création du site  Web avec Gatsby.js et du nom de domaine – Création du Logo et carte de  visite."},
+	{id: 2, description: "Administrateur Informatique – Bénévole", date: "sept. 2015 – sept. 2017", label: "Accord2mains", content: "Mise en place d'un serveur Web et d'un CMS pour la gestion des adhérents – Création d'une page web  et du nom de domaine – Création du Logo et divers Flayers publicitaires."}
 ]
 
 function Content(props) {
