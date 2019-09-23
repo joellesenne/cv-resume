@@ -3,7 +3,7 @@ import React from 'react'
 import Badge from './Badge'
 
 const listsFrontEnd = ['HTML5', 'CSS3', 'JavaScript', 'Ajax', 'Vue.js', 'React.js', 'Node.js']
-const listsBackEnd = ['PHP', 'MYSL', 'SQL', 'GRAPHQL', 'WORDPRESS', 'CMS']
+const listsBackEnd = ['PHP', 'MYSQL', 'SQL', 'GRAPHQL', 'WordPress', 'CMS']
 
 const Competences = () => (
 	<section className="section">
