@@ -29,6 +29,7 @@
     "prettier": "1.18.2"
   },
   "dependencies": {
+    "autoprefixer": "^9.6.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
