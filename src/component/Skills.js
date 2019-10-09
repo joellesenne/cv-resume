@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Badge(props) {
+function Skills(props) {
 	const lists = props.lists
 	const listItem = lists.map((list) =>
 
@@ -14,4 +14,4 @@ function Badge(props) {
 	)
 }
 
-export default Badge
+export default Skills
