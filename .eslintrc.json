@@ -1,25 +1,26 @@
 {
-	"rules": {},
-	"env": {
-	  "es6": true,
-	  "browser": true
-	},
-	"parserOptions": {
-	  "ecmaVersion": 2018,
-	  "sourceType": "module",
-	  "ecmaFeatures": {
-		"jsx": true
-	  }
-	},
-	"extends": [
-	  "eslint:recommended",
-	  "plugin:prettier/recommended"
-	],
-	"globals": {
-	  "Atomics": "readonly",
-	  "SharedArrayBuffer": "readonly"
-	},
-	"plugins": [
-	  "react"
-	]
-  }
+  "rules": {
+    "indent": ["error", 4],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "simple"],
+    "semi": ["error", "alway"],
+    "no-console": "off"
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "plugins": ["react"]
+}
