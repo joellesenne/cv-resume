@@ -1,6 +1,8 @@
-# CV resume [https://cv.joellesenne.dev](https://cv.joellesenne.dev)
+<h1 align="center">Welcome to my CV resume 👋</h1>
 
-you can use this model for CV resume
+## About
+
+>you can use this model for CV resume
 
 👀 [Looking at my work](https://joellesenne.dev)
 
@@ -10,12 +12,19 @@ you can use this model for CV resume
 
 ## 🛠 Built with :
 
-- [react.js](https://reactjs.org/)
-- [parcel.js](https://parceljs.org/)
+- Front-End
+
+	- [react.js](https://reactjs.org/)
+	- [parcel.js](https://parceljs.org/)
 
 ## 🖥 Good started
 
-Install JavaScript runtime built [nodejs](https://nodejs.org/en/)
+-  1 – Install JavaScript runtime built [nodejs](https://nodejs.org/en/)
+- 2 – Use [https://createapp.dev/](https://createapp.dev/) to install Parcel.js && React.js
+
+### 💻 Command bash :
+
+### Prerequisites
 
 ```bach
 # Node version
@@ -26,18 +35,31 @@ Install JavaScript runtime built [nodejs](https://nodejs.org/en/)
 
 # Git version
 ~ $ git --version
+````
 
+### Installing
+
+```Bash
 # Install parcel-bundler
 ~ $ sudo npm install -g parcel-bundler
 
+# Install dependence
+~ $ npm install --save-dev webpack webpack-cli @babel/preset-react babel-loader @babel/core @babel/preset-env webpack-dev-server
+~ $ npm install react react-dom react-hot-loader
+
+# // or
 # Clone this repository
 ~ $ git clone  https://github.com/joellesenne/cd.joellesenne.dev.git
 
 ~ $ cd <PATH>/cd.joellesenne.dev/
 
 ~ $ npm install
+```
 
-# Run parcel <http://localhost:1234/>
+### Usage
+
+```bash
+# Run parcel
 ~ $ parcel src/index.html
 
 # Run parcel build
@@ -45,6 +67,38 @@ Install JavaScript runtime built [nodejs](https://nodejs.org/en/)
 
 ```
 
-## Licence
+=> browse to [http://localhost:1234/](http://localhost:1234/)
 
-Project is open sources [MIT](LICENSE)
+🎉 have fun
+
+## 🚧 Coming soon
+
+- ❌ Use a API
+- ❌ Refactoring code a Gatsby.js
+- ❌ Use dark mode
+
+👤 **Joël Lesenne &lt;contact@joellesenne.dev&gt;**
+
+- Twitter: [@joellesenne](https://twitter.com/joellesenne)
+- Github: [@joellesenne](https://github.com/joellesenne)
+- Codepen : [@joellesenne](https://codepen.io/joellesenne)
+
+### 🏠 [Homepage](https://cv.joellesenne.dev)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/joellesenne/cv.joellesenne.dev/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+[![support us](https://img.shields.io/badge/badge-become--a%20patreon-orange?style=flat-square)](https://www.patreon.com/joellesenne)
+
+## 📝 License
+
+Copyright © 2019 [Joël Lesenne](https://github.com/joellesenne).
+
+This project is [MIT](LICENSE) licensed.)
