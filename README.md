@@ -19,16 +19,15 @@
 ## 🛠 Built with
 
 - Front-End
-
 	- [react.js](https://reactjs.org/)
 	- [parcel.js](https://parceljs.org/)
 
 ## 🖥 Good started
 
-- 1 – Install JavaScript runtime built [nodejs](https://nodejs.org/en/)
-- 2 – Use [https://createapp.dev/](https://createapp.dev/) to install Parcel.js && React.js
+1. – Install JavaScript runtime built [nodejs](https://nodejs.org/en/)
+2. – Use [https://createapp.dev/](https://createapp.dev/) to install Parcel.js && React.js
 
-### 💻 Command bash :
+### 💻 Command bash
 
 ### Prerequisites
 
@@ -85,8 +84,8 @@
 
 👤 **Joël Lesenne &lt;contact@joellesenne.dev&gt;**
 
-- Twitter: [@joellesenne](https://twitter.com/joellesenne)
-- Github: [@joellesenne](https://github.com/joellesenne)
+- Twitter : [@joellesenne](https://twitter.com/joellesenne)
+- Github : [@joellesenne](https://github.com/joellesenne)
 - Codepen : [@joellesenne](https://codepen.io/joellesenne)
 
 ### 🏠 [Homepage](https://cv.joellesenne.dev)

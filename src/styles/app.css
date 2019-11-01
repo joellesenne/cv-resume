@@ -7,8 +7,8 @@
 }
 
 *,
-::before,
-::after {
+*::before,
+*::after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -40,12 +40,12 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: ". . main main main main . .";
+  grid-template-areas: '. . main main main main . .';
 
   margin: 0px;
   padding: 2.5rem 0;
 
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   letter-spacing: 0.06rem;
 
   background: linear-gradient(
@@ -60,7 +60,7 @@ body {
 @media (max-width: 48em) {
   body {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "main main main main ";
+    grid-template-areas: 'main main main main ';
   }
 }
 
@@ -101,7 +101,7 @@ hr {
 }
 
 h2 {
-  font-family: "Teko", sans-serif;
+  font-family: 'Teko', sans-serif;
   font-size: 0.8rem;
   line-height: 2.5;
   font-weight: 400;
@@ -111,7 +111,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Teko", sans-serif;
+  font-family: 'Teko', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -198,7 +198,7 @@ main > * + * {
 }
 
 .main::before {
-  content: "";
+  content: '';
   display: block;
 
   height: 5px;
@@ -217,7 +217,7 @@ main > * + * {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: "name name name picture picture" "title title title picture picture" "email email email . . " "site site site . . " "phone phone phone . . ";
+  grid-template-areas: 'name name name picture picture' 'title title title picture picture' 'email email email . . ' 'site site site . . ' 'phone phone phone . . ';
 
   padding: 0.5rem;
   margin: 0.5rem;
@@ -226,7 +226,7 @@ main > * + * {
 .header h1 {
   grid-area: name;
 
-  font-family: "Chivo", sans-serif;
+  font-family: 'Chivo', sans-serif;
   font-size: 3rem;
   line-height: 1;
   font-weight: 700;
