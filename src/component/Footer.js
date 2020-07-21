@@ -2,7 +2,7 @@ import React from 'react'
 
 import Skills from './Skills'
 
-const skills = ['Photographie', 'PAO', 'Vélo', 'Natation']
+const skills = ['Photographie', 'PAO', 'Vélo', 'Boxe']
 
 const Footer = () => (
 	<footer className="footer">
