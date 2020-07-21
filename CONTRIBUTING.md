@@ -7,15 +7,19 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 First fork this project.
 
-- git clone https://github.com/joellesenne/cv.joellesenne.dev.git
+```bach
+- git clone <https://github.com/joellesenne/cv.joellesenne.dev.git>
 - npm install
 
 - git checkout -b my-fix
+```
 
-#### fix some code...
+## fix some code
 
-* git commit -m "added this feature"
-* git push origin my-fix
+```bash
+ - git commit -m "added this feature"
+ - git push origin my-fix
+```
 
 Lastly, open a pull request on Github.
 
@@ -48,7 +52,7 @@ include:
 
 - Using welcoming and inclusive language
 - Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
+- Gracefully accepting constructive criticism
 - Focusing on what is best for the community
 - Showing empathy towards other community members
 
@@ -58,7 +62,7 @@ Examples of unacceptable behavior by participants include:
 advances
 - Trolling, insulting/derogatory comments, and personal or political attacks
 - Public or private harassment
-- Publishing others' private information, such as a physical or electronic
+- Publishing others private information, such as a physical or electronic
   address, without explicit permission
 - Other conduct which could reasonably be considered inappropriate in a
   professional setting

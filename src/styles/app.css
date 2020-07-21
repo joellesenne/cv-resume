@@ -185,8 +185,6 @@ main > * + * {
 .main {
   grid-area: main / main / main / main;
 
-  padding: 0 0 1rem;
-
   font-weight: 400;
   color: var(--colorPrimary);
 
@@ -220,7 +218,7 @@ main > * + * {
   grid-template-areas: 'name name name picture picture' 'title title title picture picture' 'email email email . . ' 'site site site . . ' 'phone phone phone . . ';
 
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .header h1 {
@@ -247,7 +245,7 @@ main > * + * {
 .footer {
   display: block;
 
-  margin: 0 0.5rem;
+  margin: 1rem;
   padding: 0.2rem 0.5rem 0.5rem;
 }
 
