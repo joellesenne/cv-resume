@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import './styles/app.css'
+import '../css/app.css'
 
-import Header from './component/Header'
-import Article from './component/Article'
-import Footer from './component/Footer'
+import Header from '../../component/Header'
+import Article from '../../component/Article'
+import Footer from '../../component/Footer'
 
 const App = () => (
   <>

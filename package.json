@@ -2,13 +2,7 @@
   "name": "cv.joellesenne.dev",
   "version": "1.0.0",
   "description": "My online CV using React.js and Parcel.js",
-  "main": "index.js",
-  "scripts": {
-    "start-dev": "parcel src/index.html",
-    "build-prod": "parcel build src/index.html"
-  },
   "keywords": [],
-  "author": "Joël Lesenne",
   "homepage": "https://cv.joellesenne.dev",
   "bugs": {
     "url": "https://github.com/joellesenne/cv.joellesenne.dev/issues"
@@ -18,19 +12,25 @@
     "url": "git+https://github.com/joellesenne/cv.joellesenne.dev.git"
   },
   "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "7.11.4",
-    "@babel/preset-env": "7.11.0",
-    "@babel/preset-react": "7.10.4",
-    "eslint": "7.7.0",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-prettier": "3.1.4",
-    "parcel-bundler": "1.12.4",
-    "prettier": "2.1.1"
+  "author": "Joël Lesenne",
+  "main": "index.js",
+  "scripts": {
+    "build-prod": "parcel build src/index.html",
+    "clean": "rm -rf .cache & rm -rf dist",
+    "start-dev": "parcel src/index.html"
   },
   "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "eslint": "7.18.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "2.2.1"
   }
 }

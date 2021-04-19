@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to my CV resume 👋</h1>
 
-[![GitHub license](https://img.shields.io/badge/Mit-License-blue.svg?style=flat-square)](LICENSE) [![Joel Lesenne HomePage](https://img.shields.io/badge/Site-CV%20resume-red.svg?style=flat-square)](https//cv.joellesenne.dev) ![Maintenance](https://img.shields.io/maintenance/yes/2019.svg?style=flat-square) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/joellesenne/joellesenne.dev)
+[![GitHub license](https://img.shields.io/badge/Mit-License-blue.svg?style=flat-square)](LICENSE) [![Joel Lesenne HomePage](https://img.shields.io/badge/Site-CV%20resume-red.svg?style=flat-square)](https//cv.joellesenne.dev) ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg?style=flat-square) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/joellesenne/joellesenne.dev)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/12f6b884cb4049638ac87adf66005cce)](https://www.codacy.com/manual/joellesenne/cv.joellesenne.dev?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joellesenne/cv.joellesenne.dev&amp;utm_campaign=Badge_Grade)
 
@@ -12,9 +12,9 @@
 
 👀 [Looking at my work](https://joellesenne.dev)
 
-💡 [Inspiration](https://cv.scottspence.me/)
+💡 [Inspiration](https://mecv.xyz/)
 
-📦 [Git project](https://github.com/joellesenne/cd.joellesenne.dev)
+📦 [Git project](https://github.com/joellesenne/cv.joellesenne.dev)
 
 ## 🛠 Built with
 

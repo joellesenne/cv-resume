@@ -1,10 +1,10 @@
 import React from 'react'
-import Avatar from '../img/avatar.png'
+import Profile from '../assets/images/profile.jpg'
 
 const Header = () => (
 	<header className="header">
 		<picture>
-			<img src={Avatar} alt="Avatar" />
+			<img src={Profile} alt="Profile" />
 		</picture>
 		<h1>Joël <br /> Lesenne</h1>
 		<p>Développeur Web</p>
