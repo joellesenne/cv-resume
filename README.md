@@ -1,109 +1,92 @@
-<h1 align="center">Welcome to my CV resume 👋</h1>
+<h1 align="center">Welcome to cv.joellesenne.dev 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-%3E%3D14.15.4-blue.svg" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D6.14.10-blue.svg" />
+  <a href="https://github.com/joellesenne/cv.joellesenne.dev#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/joellesenne/cv.joellesenne.dev/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/joellesenne/cv.joellesenne.dev/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/joellesenne/cv.joellesenne.dev" />
+  </a>
+  <a href="https://twitter.com/joellesenne" target="_blank">
+    <img alt="Twitter: joellesenne" src="https://img.shields.io/twitter/follow/joellesenne.svg?style=social" />
+  </a>
+</p>
 
-[![GitHub license](https://img.shields.io/badge/Mit-License-blue.svg?style=flat-square)](LICENSE) [![Joel Lesenne HomePage](https://img.shields.io/badge/Site-CV%20resume-red.svg?style=flat-square)](https//cv.joellesenne.dev) ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg?style=flat-square) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/joellesenne/joellesenne.dev)
+> My online CV using React.js and Parcel.js
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/12f6b884cb4049638ac87adf66005cce)](https://www.codacy.com/manual/joellesenne/cv.joellesenne.dev?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joellesenne/cv.joellesenne.dev&amp;utm_campaign=Badge_Grade)
+### 🏠 [Homepage](https://github.com/joellesenne/cv.joellesenne.dev)
 
-[![Twitter: joellesenne](https://img.shields.io/twitter/follow/joellesenne.svg?style=social)](https://twitter.com/joellesenne)
+### ✨ [Demo](https://cv.joellesenne.dev)
 
-## About
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
->you can use this model for CV resume
+- [Prerequisites](#prerequisites)
+- [Install](#install)
+- [Usage](#usage)
+- [Author](#author)
+- [🤝 Contributing](#-contributing)
+- [Show your support](#show-your-support)
+- [📝 License](#-license)
 
-👀 [Looking at my work](https://joellesenne.dev)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-💡 [Inspiration](https://mecv.xyz/)
+## Prerequisites
 
-📦 [Git project](https://github.com/joellesenne/cv.joellesenne.dev)
+- node >=14.15.4
+- npm >=6.14.10
 
-## 🛠 Built with
+## Install
 
-- Front-End
-	- [react.js](https://reactjs.org/)
-	- [parcel.js](https://parceljs.org/)
+```sh
+npm install
 
-## 🖥 Good started
-
-1. – Install JavaScript runtime built [nodejs](https://nodejs.org/en/)
-2. – Use [https://createapp.dev/](https://createapp.dev/) to install Parcel.js && React.js
-
-### 💻 Command bash
-
-### Prerequisites
-
-```bach
-# Node version
-~ $ node --version
-
-# NPM version
-~ $ npm --version
-
-# Git version
-~ $ git --version
+# OR
+yarn install
 ```
 
-### Installing
+## Usage
 
-```Bash
-# Install parcel-bundler
-~ $ sudo npm install -g parcel-bundler
+Use [https://createapp.dev/](https://createapp.dev/) to install Parcel.js && React.js
 
-# Install dependence
-~ $ npm install --save-dev webpack webpack-cli @babel/preset-react babel-loader @babel/core @babel/preset-env webpack-dev-server
-~ $ npm install react react-dom react-hot-loader
+```sh
+# Dev
+parcel src/index.html
 
-# // or
-# Clone this repository
-~ $ git clone  https://github.com/joellesenne/cd.joellesenne.dev.git
-
-~ $ cd <PATH>/cd.joellesenne.dev/
-
-~ $ npm install
+# Prod
+parcel build src/index.html
 ```
 
-### Usage
+## Author
 
-```bash
-# Run parcel
-~ $ parcel src/index.html
+👤 **Joël Lesenne**
 
-# Run parcel build
-~ $ parcel build src/index.html
-
-```
-
-=> browse to [http://localhost:1234/](http://localhost:1234/)
-
-🎉 have fun
-
-## 🚧 Coming soon
-
-- ❌ Use a API
-- ❌ Refactoring code a Gatsby.js
-- ❌ Use dark mode
-
-👤 **Joël Lesenne &lt;contact@joellesenne.dev&gt;**
-
-- Twitter : [@joellesenne](https://twitter.com/joellesenne)
-- Github : [@joellesenne](https://github.com/joellesenne)
-- Codepen : [@joellesenne](https://codepen.io/joellesenne)
-
-### 🏠 [Homepage](https://cv.joellesenne.dev)
+* Website: https://joellesenne.dev
+* Twitter: [@joellesenne](https://twitter.com/joellesenne)
+* Github: [@joellesenne](https://github.com/joellesenne)
+* LinkedIn: [@joellesenne](https://linkedin.com/in/joellesenne)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
-
-Feel free to check [issues page](https://github.com/joellesenne/cv.joellesenne.dev/issues).
+Contributions, issues and feature requests are welcome! <br />Feel free to check [issues page](https://github.com/joellesenne/cv.joellesenne.dev/issues). You can also take a look at the [contributing guide](https://github.com/joellesenne/cv.joellesenne.dev/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-[![support us](https://img.shields.io/badge/Patreon-Donate-red?style=flat-square)](https://www.patreon.com/joellesenne)
+<a href="https://www.patreon.com/joellesenne">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
 
 ## 📝 License
 
-Copyright © 2019 [Joël Lesenne](https://github.com/joellesenne).
+Copyright © 2021 [Joël Lesenne](https://github.com/joellesenne). <br />This project is [MIT](https://github.com/joellesenne/cv.joellesenne.dev/blob/master/LICENSE) licensed.
 
-This project is [MIT](LICENSE) licensed.)
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
