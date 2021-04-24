@@ -3,18 +3,19 @@ import ReactDOM from 'react-dom'
 import CookieConsent from "react-cookie-consent";
 import ReactGA from 'react-ga';
 
-
 import '../css/app.css'
 
 import Header from '../../component/Header'
 import Article from '../../component/Article'
 import Footer from '../../component/Footer'
+import CarbonBadge from "react-carbonbadge";
 
 const App = () => (
   <>
 	  <Header />
 	  <Article />
 	  <Footer />
+	  <CarbonBadge darkMode={false} />
 	  <CookieConsent
 		  enableDeclineButton
 		  location="bottom"

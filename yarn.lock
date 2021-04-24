@@ -4717,6 +4717,11 @@ range-parser@~1.2.1:
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
 
+react-carbonbadge@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-carbonbadge/-/react-carbonbadge-1.0.1.tgz#6bc374f6c2cd208ea5eeb918e72a149a21773098"
+  integrity sha512-5/hgs/4Sv8aJLnjA9Qbcel+wu1uN64Q0tpNlYdb0k36kgOzFBRVmG0GL8X8LaAPWuSBoNeDEyWmy3vDlKascJA==
+
 react-cookie-consent@6.2.3:
   version "6.2.3"
   resolved "https://registry.yarnpkg.com/react-cookie-consent/-/react-cookie-consent-6.2.3.tgz#fdfbea5ea07ac484c46046418514865c33319015"
