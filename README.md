@@ -70,6 +70,7 @@ parcel build src/index.html
 * Website: https://joellesenne.dev
 * Twitter: [@joellesenne](https://twitter.com/joellesenne)
 * Github: [@joellesenne](https://github.com/joellesenne)
+* Codepen : [@joellesenne](https://codepen.io/joellesenne)
 * LinkedIn: [@joellesenne](https://linkedin.com/in/joellesenne)
 
 ## 🤝 Contributing
