@@ -5,11 +5,11 @@ import Experiences from './Experiences'
 import Training from './Training'
 
 const Article = () => (
-	<article>
-		<Competences />
-		<Experiences />
-		<Training />
-	</article>
+  <article>
+    <Competences />
+    <Experiences />
+    <Training />
+  </article>
 )
 
 export default Article
