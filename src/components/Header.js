@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../assets/images/profile.jpg'
+import Profile from 'url:../assets/images/profile.jpg'
 
 const Header = () => (
 	<header className="header">
