@@ -17,7 +17,7 @@
   "scripts": {
     "build-prod": "parcel build src/index.html --public-url ./",
     "clean": "rm -rf .cache & rm -rf dist",
-    "start-dev": "parcel src/index.html"
+    "start-dev": "parcel serve src/index.html"
   },
   "dependencies": {
     "prop-types": "15.7.2",
@@ -28,17 +28,19 @@
     "react-ga": "3.3.0"
   },
   "devDependencies": {
-    "@babel/core": "7.14.0",
-    "@babel/preset-env": "7.14.0",
+    "@babel/core": "7.14.2",
+    "@babel/preset-env": "7.14.2",
     "@babel/preset-react": "7.13.13",
-    "eslint": "7.25.0",
+    "@babel/preset-typescript": "7.13.0",
+    "@parcel/transformer-image": "2.0.0-beta.2",
+    "eslint": "7.26.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.3.1",
-    "parcel-bundler": "1.12.5",
-    "prettier": "2.2.1"
+    "parcel": "next",
+    "prettier": "2.3.0"
   },
   "engines": {
-    "node": ">=14.15.4",
-    "npm": ">=6.14.10"
+    "node": ">=16.0.0",
+    "npm": ">=7.13.0"
   }
 }
