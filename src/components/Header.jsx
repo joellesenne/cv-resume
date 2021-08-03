@@ -1,8 +1,10 @@
 import React from 'react'
-import Profile from 'url:../assets/images/profile.jpg'
+import { HeaderStyled } from './styled/HeaderStyled'
+
+import Profile from '../images/profile.jpg'
 
 const Header = () => (
-  <header className='header'>
+  <HeaderStyled>
     <picture>
       <img src={Profile} alt='Profile' />
     </picture>
@@ -11,7 +13,7 @@ const Header = () => (
     <a className='email' href='mailto:contact@joellesenne.dev'>contact@joellesenne.dev</a>
     <a className='phone' href='tel:+33611578371'>+33 611 578 371</a>
     <a className='site' href='https://joellesenne.dev' target='_blank' rel='noopener noreferrer'>joellesenne.dev</a>
-  </header>
+  </HeaderStyled>
 )
 
 export default Header

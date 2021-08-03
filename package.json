@@ -1,46 +1,72 @@
 {
-  "name": "cv.joellesenne.dev",
-  "version": "1.0.0",
-  "description": "My online CV using React.js and Parcel.js",
-  "keywords": [],
-  "homepage": "https://github.com/joellesenne/cv.joellesenne.dev",
-  "bugs": {
-    "url": "https://github.com/joellesenne/cv.joellesenne.dev/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joellesenne/cv.joellesenne.dev.git"
-  },
-  "license": "MIT",
-  "author": "Joël Lesenne",
-  "main": "index.js",
-  "scripts": {
-    "build-prod": "parcel build src/index.html --public-url ./",
-    "clean": "rm -rf .cache & rm -rf dist",
-    "start-dev": "parcel serve src/index.html"
-  },
-  "dependencies": {
-    "prop-types": "15.7.2",
-    "react": "^17.0.1",
-    "react-carbonbadge": "1.0.1",
-    "react-cookie-consent": "6.2.4",
-    "react-dom": "^17.0.1",
-    "react-ga": "3.3.0"
-  },
-  "devDependencies": {
-    "@babel/core": "7.14.3",
-    "@babel/preset-env": "7.14.4",
-    "@babel/preset-react": "7.13.13",
-    "@babel/preset-typescript": "7.13.0",
-    "@parcel/transformer-image": "2.0.0-beta.2",
-    "eslint": "7.28.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-prettier": "3.4.0",
-    "parcel": "next",
-    "prettier": "2.3.1"
-  },
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=7.13.0"
-  }
+		"name": "cv.joellesenne.dev",
+		"version": "1.0.1",
+		"eslintConfig": {
+		  "env": {
+			"browser": true,
+			"node": true
+		  }
+		},
+		"description": "My online CV using Gatsby.js",
+		"keywords": [
+				"gatsby"
+		],
+		"homepage": "https://cv.joellesenne.dev",
+		"bugs": {
+				"url": "https://github.com/joellesenne/cv.joellesenne.dev/issues"
+		},
+		"repository": {
+				"type": "git",
+				"url": "git+https://github.com/joellesenne/cv.joellesenne.dev.git"
+		},
+		"license": "MIT",
+		"author": "Joël Lesenne <contact@joellesenne.dev>",
+		"scripts": {
+				"build": "gatsby build",
+				"develop": "gatsby develop -o",
+				"clean": "rm -rf .cache & rm -rf public",
+				"format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+				"lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
+				"lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
+				"prepare": "yarn run snyk-protect",
+				"serve": "gatsby serve",
+				"snyk-protect": "snyk protect",
+				"start": "npm run develop",
+				"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+		},
+		"dependencies": {
+				"axios": "0.21.1",
+				"gatsby": "3.10.1",
+				"gatsby-image": "3.10.0",
+				"gatsby-plugin-google-analytics": "3.10.0",
+				"gatsby-plugin-manifest": "3.10.0",
+				"gatsby-plugin-offline": "4.10.0",
+				"gatsby-plugin-react-helmet": "4.10.0",
+				"gatsby-source-filesystem": "3.10.0",
+				"prop-types": "15.7.2",
+				"react": "17.0.2",
+				"react-dom": "17.0.2",
+				"react-helmet": "6.1.0",
+				"snyk": "1.666.0",
+				"styled-components": "5.3.0"
+		},
+		"devDependencies": {
+				"@babel/core": "7.14.6",
+				"@babel/eslint-parser": "7.14.7",
+				"dotenv": "10.0.0",
+				"eslint": "7.31.0",
+				"eslint-config-airbnb": "18.2.1",
+				"eslint-config-prettier": "8.3.0",
+				"eslint-plugin-import": "2.23.4",
+				"eslint-plugin-jsx-a11y": "6.4.1",
+				"eslint-plugin-prettier": "3.4.0",
+				"eslint-plugin-react": "7.24.0",
+				"eslint-plugin-react-hooks": "4.2.0",
+				"gatsby-plugin-root-import": "2.0.6",
+				"prettier": "2.3.2"
+		},
+		"engines": {
+				"node": ">=16.0.0",
+				"npm": ">=7.13.0"
+		}
 }

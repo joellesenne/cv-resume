@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Competences from './Competences'
-import Experiences from './Experiences'
-import Training from './Training'
+import Competences from './modules/Competences'
+import Experiences from './modules/Experiences'
+import Training from './modules/Training'
 
 const Article = () => (
   <article>

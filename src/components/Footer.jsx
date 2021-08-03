@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Skills from './Skills'
+import Skills from './modules/Skills'
 
 const skills = ['Photographie', 'PAO', 'Vélo', 'Boxe']
 
 const Footer = () => (
-  <footer className='footer'>
+  <footer>
     <h2>Centres d'intérêts</h2>
     <hr />
     <Skills lists={skills} />
