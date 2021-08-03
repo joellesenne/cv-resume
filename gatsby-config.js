@@ -1,5 +1,3 @@
-const path = require('path')
-
 const config = require('./config/site')
 
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
@@ -29,6 +27,21 @@ module.exports = {
 				name: 'images',
 				path: `${__dirname}/src/images`,
 			},
+		},
+		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+				host: 'https://cv.joellesenne.dev',
+				sitemap: 'https://cv.joellesenne.dev/sitemap.xml',
+				env: {
+					development: {
+						policy: [{ userAgent: '*', disallow: ['/'] }]
+					},
+					production: {
+						policy: [{ userAgent: '*', allow: '/' }]
+					}
+				}
+			}
 		},
 		{
 			resolve: `gatsby-plugin-google-analytics`,

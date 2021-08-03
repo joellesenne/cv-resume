@@ -2,10 +2,10 @@
 		"name": "cv.joellesenne.dev",
 		"version": "1.0.1",
 		"eslintConfig": {
-		  "env": {
-			"browser": true,
-			"node": true
-		  }
+				"env": {
+						"browser": true,
+						"node": true
+				}
 		},
 		"description": "My online CV using Gatsby.js",
 		"keywords": [
@@ -42,6 +42,7 @@
 				"gatsby-plugin-manifest": "3.10.0",
 				"gatsby-plugin-offline": "4.10.0",
 				"gatsby-plugin-react-helmet": "4.10.0",
+				"gatsby-plugin-robots-txt": "1.6.8",
 				"gatsby-source-filesystem": "3.10.0",
 				"prop-types": "15.7.2",
 				"react": "17.0.2",
