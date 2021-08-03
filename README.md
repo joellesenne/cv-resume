@@ -17,7 +17,7 @@
   </a>
 </p>
 
-> My online CV using React.js and Parcel.js
+> My online CV using Gatsby.js
 
 ### 🏠 [Homepage](https://github.com/joellesenne/cv.joellesenne.dev)
 
@@ -57,10 +57,10 @@ Use [https://createapp.dev/](https://createapp.dev/) to install Parcel.js && Rea
 
 ```sh
 # Dev
-parcel src/index.html
+gatsby develop -o
 
 # Prod
-parcel build src/index.html
+gatsby build
 ```
 
 ## Author
