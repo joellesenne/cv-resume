@@ -53,8 +53,6 @@ yarn install
 
 ## Usage
 
-Use [https://createapp.dev/](https://createapp.dev/) to install Parcel.js && React.js
-
 ```sh
 # Dev
 gatsby develop -o
