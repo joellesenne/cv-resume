@@ -21,6 +21,7 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
+		'gatsby-plugin-theme-ui',
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
@@ -64,7 +65,7 @@ module.exports = {
 				background_color: config.backgroundColor,
 				theme_color: config.themeColor,
 				display: 'fullscreen',
-				icon: 'src/images/logo.png', // This path is relative to the root of the site.
+				icon: 'src/images/avatar.png', // This path is relative to the root of the site.
 			},
 		},
 		'gatsby-plugin-offline',

@@ -1,7 +1,7 @@
 import React from 'react'
 import { HeaderStyled } from './styled/HeaderStyled'
 
-import Profile from '../images/profile.jpg'
+import Profile from '../images/avatar.svg'
 
 const Header = () => (
   <HeaderStyled>

@@ -166,21 +166,20 @@ export const GlobalStyles = createGlobalStyle`
 		margin-top: 5rem;
 	}
 
-	section,
 	footer {
-		display: block;
+		margin: 1rem;
+		padding: 0.2rem 0.5rem 1rem;
+	}
 
+  .content {
 		margin: 1rem;
 		padding: 0.2rem 0.5rem 0.5rem;
-	}
+		line-height: 1.5;
+  }
 
 	.description {
 		font-size: 1.15rem;
 		font-weight: 700;
-	}
-
-	.content {
-		line-height: 1.5;
 	}
 
 	.training {

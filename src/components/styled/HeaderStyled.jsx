@@ -16,9 +16,9 @@ export const HeaderStyled = styled.header`
 		border-radius: 50%;
 
 		object-fit: cover;
-	@media (max-width: 768px) {
-		display: none;
-	}
+		@media (max-width: 768px) {
+			display: none;
+		}
 	}
 	h1 {
 		grid-area: name;
@@ -28,7 +28,7 @@ export const HeaderStyled = styled.header`
 		line-height: 1;
 		font-weight: 700;
 		text-transform: uppercase;
-		@media (max-width: 23.5em) {
+		@media (max-width: 768px) {
 			font-size: 2rem;
 		}
 	}
@@ -40,7 +40,7 @@ export const HeaderStyled = styled.header`
 
 		font-size: 1.5rem;
 		font-weight: 700;
-		@media (max-width: 23.5em) {
+		@media (max-width: 768px) {
 			font-size: 1rem;
 		}
 	}
