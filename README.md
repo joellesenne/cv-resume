@@ -39,8 +39,8 @@
 
 ## Prerequisites
 
-- node >=16.0.0
-- npm >=7.13.0
+- node >=14.0.0
+- npm >=7.0.0
 
 ## Install
 
