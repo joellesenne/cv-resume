@@ -6,7 +6,7 @@ specifiers:
   axios: 0.24.0
   dotenv: 10.0.0
   eslint: 8.4.1
-  eslint-config-airbnb: 19.0.2
+  eslint-config-airbnb: 19.0.4
   eslint-config-prettier: 8.3.0
   eslint-plugin-import: 2.25.3
   eslint-plugin-jsx-a11y: 6.5.1
@@ -56,7 +56,7 @@ devDependencies:
   '@babel/eslint-parser': 7.16.3_@babel+core@7.16.0+eslint@8.4.1
   dotenv: 10.0.0
   eslint: 8.4.1
-  eslint-config-airbnb: 19.0.2_39a1962ce33cab537ff72240b84c6703
+  eslint-config-airbnb: 19.0.4_39a1962ce33cab537ff72240b84c6703
   eslint-config-prettier: 8.3.0_eslint@8.4.1
   eslint-plugin-import: 2.25.3_eslint@8.4.1
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.4.1
@@ -4725,14 +4725,14 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-config-airbnb/19.0.2_39a1962ce33cab537ff72240b84c6703:
-    resolution: {integrity: sha512-4v5DEMVSl043LaCT+gsxPcoiIk0iYG5zxJKKjIy80H/D//2E0vtuOBWkb0CBDxjF+y26yQzspIXYuY6wMmt9Cw==}
+  /eslint-config-airbnb/19.0.4_39a1962ce33cab537ff72240b84c6703:
+    resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.32.0 || ^8.2.0
       eslint-plugin-import: ^2.25.3
       eslint-plugin-jsx-a11y: ^6.5.1
-      eslint-plugin-react: ^7.27.1
+      eslint-plugin-react: ^7.28.0
       eslint-plugin-react-hooks: ^4.3.0
     dependencies:
       eslint: 8.4.1
