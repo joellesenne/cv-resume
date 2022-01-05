@@ -24,7 +24,7 @@ specifiers:
   gatsby-plugin-theme-ui: 0.12.1
   gatsby-source-filesystem: 4.3.0
   prettier: 2.5.1
-  prop-types: 15.7.2
+  prop-types: 15.8.1
   react: 17.0.2
   react-dom: 17.0.2
   react-helmet: 6.1.0
@@ -43,7 +43,7 @@ dependencies:
   gatsby-plugin-robots-txt: 1.6.14_gatsby@4.3.0
   gatsby-plugin-theme-ui: 0.12.1_gatsby@4.3.0+theme-ui@0.12.1
   gatsby-source-filesystem: 4.3.0_gatsby@4.3.0
-  prop-types: 15.7.2
+  prop-types: 15.8.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-helmet: 6.1.0_react@17.0.2
@@ -1611,7 +1611,7 @@ packages:
       react-dom: 15.x || 16.x || 17.x
     dependencies:
       invariant: 2.2.4
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-lifecycles-compat: 3.0.4
@@ -4967,7 +4967,7 @@ packages:
       object.fromentries: 2.0.5
       object.hasown: 1.1.0
       object.values: 1.1.5
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       resolve: 2.0.0-next.3
       semver: 6.3.0
       string.prototype.matchall: 4.0.6
@@ -4990,7 +4990,7 @@ packages:
       object.fromentries: 2.0.5
       object.hasown: 1.1.0
       object.values: 1.1.5
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       resolve: 2.0.0-next.3
       semver: 6.3.0
       string.prototype.matchall: 4.0.6
@@ -5772,7 +5772,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.16.3
       object-fit-images: 3.2.4
-      prop-types: 15.7.2
+      prop-types: 15.8.1
     dev: false
 
   /gatsby-legacy-polyfills/2.3.0:
@@ -5793,7 +5793,7 @@ packages:
       '@babel/runtime': 7.16.3
       '@gatsbyjs/reach-router': 1.3.6_react-dom@17.0.2+react@17.0.2
       '@types/reach__router': 1.3.9
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: false
@@ -6012,7 +6012,7 @@ packages:
       node-fetch: 2.6.6
       pkg-dir: 4.2.0
       prettier: 2.5.1
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       remark-mdx: 2.0.0-next.7
       remark-mdxjs: 2.0.0-next.8
       remark-parse: 6.0.3
@@ -6210,7 +6210,7 @@ packages:
       postcss-flexbugs-fixes: 5.0.2_postcss@8.4.4
       postcss-loader: 5.3.0_postcss@8.4.4+webpack@5.65.0
       prompts: 2.4.2
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       query-string: 6.14.1
       raw-loader: 4.0.2_webpack@5.65.0
       react: 17.0.2
@@ -9196,8 +9196,8 @@ packages:
       sisteransi: 1.0.5
     dev: false
 
-  /prop-types/15.7.2:
-    resolution: {integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==}
+  /prop-types/15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
@@ -9399,7 +9399,7 @@ packages:
       react: '>=16.3.0'
     dependencies:
       object-assign: 4.1.1
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-fast-compare: 3.2.0
       react-side-effect: 2.1.1_react@17.0.2
