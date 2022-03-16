@@ -13,7 +13,7 @@ specifiers:
   '@babel/eslint-parser': 7.17.0
   '@snyk/protect': 1.873.0
   axios: 0.26.1
-  dotenv: 10.0.0
+  dotenv: 16.0.0
   eslint: 8.11.0
   eslint-config-airbnb: 19.0.4
   eslint-config-prettier: 8.5.0
@@ -63,7 +63,7 @@ dependencies:
 devDependencies:
   '@babel/core': 7.17.7
   '@babel/eslint-parser': 7.17.0_@babel+core@7.17.7+eslint@8.11.0
-  dotenv: 10.0.0
+  dotenv: 16.0.0
   eslint: 8.11.0
   eslint-config-airbnb: 19.0.4_fd1f021288dc8406dabef8303b1a98e6
   eslint-config-prettier: 8.5.0_eslint@8.11.0
@@ -4883,9 +4883,9 @@ packages:
     resolution: {integrity: sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==}
     dev: false
 
-  /dotenv/10.0.0:
-    resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
-    engines: {node: '>=10'}
+  /dotenv/16.0.0:
+    resolution: {integrity: sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==}
+    engines: {node: '>=12'}
     dev: true
 
   /dotenv/7.0.0:
