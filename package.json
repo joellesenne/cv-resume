@@ -35,7 +35,7 @@
 				}
 		},
 		"dependencies": {
-				"@snyk/protect": "^1.873.0",
+				"@snyk/protect": "1.873.0",
 				"axios": "0.24.0",
 				"gatsby": "4.9.3",
 				"gatsby-image": "3.11.0",
