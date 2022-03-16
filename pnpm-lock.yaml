@@ -12,7 +12,7 @@ specifiers:
   '@babel/core': 7.17.7
   '@babel/eslint-parser': 7.17.0
   '@snyk/protect': 1.873.0
-  axios: 0.24.0
+  axios: 0.26.1
   dotenv: 10.0.0
   eslint: 8.11.0
   eslint-config-airbnb: 19.0.4
@@ -42,7 +42,7 @@ specifiers:
 
 dependencies:
   '@snyk/protect': 1.873.0
-  axios: 0.24.0
+  axios: 0.26.1
   gatsby: 4.9.3_react-dom@17.0.2+react@17.0.2
   gatsby-image: 3.11.0
   gatsby-plugin-google-analytics: 4.9.0_f1a12c999d10fd94da3609499f2686df
@@ -3490,8 +3490,8 @@ packages:
       - debug
     dev: false
 
-  /axios/0.24.0:
-    resolution: {integrity: sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==}
+  /axios/0.26.1:
+    resolution: {integrity: sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==}
     dependencies:
       follow-redirects: 1.14.9_debug@3.2.7
     transitivePeerDependencies:
