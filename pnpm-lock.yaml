@@ -27,9 +27,9 @@ specifiers:
   gatsby-plugin-google-analytics: 4.10.0
   gatsby-plugin-manifest: 4.10.0
   gatsby-plugin-offline: 5.10.0
+  gatsby-plugin-pnpm: 1.2.10
   gatsby-plugin-react-helmet: 5.10.0
   gatsby-plugin-robots-txt: 1.7.0
-  gatsby-plugin-root-import: 2.0.8
   gatsby-plugin-theme-ui: 0.13.1
   gatsby-source-filesystem: 4.10.0
   prettier: 2.6.0
@@ -48,9 +48,9 @@ dependencies:
   gatsby-plugin-google-analytics: 4.10.0_dcfafa7ed7bee026c1ed822740ac8b5b
   gatsby-plugin-manifest: 4.10.0_gatsby@4.10.0
   gatsby-plugin-offline: 5.10.0_dcfafa7ed7bee026c1ed822740ac8b5b
+  gatsby-plugin-pnpm: 1.2.10_gatsby@4.10.0
   gatsby-plugin-react-helmet: 5.10.0_gatsby@4.10.0+react-helmet@6.1.0
   gatsby-plugin-robots-txt: 1.7.0_gatsby@4.10.0
-  gatsby-plugin-root-import: 2.0.8_gatsby@4.10.0
   gatsby-plugin-theme-ui: 0.13.1_96afa633be09a875f1e3af13968615ed
   gatsby-source-filesystem: 4.10.0_gatsby@4.10.0
   prop-types: 15.8.1
@@ -6307,6 +6307,16 @@ packages:
       - supports-color
     dev: false
 
+  /gatsby-plugin-pnpm/1.2.10_gatsby@4.10.0:
+    resolution: {integrity: sha512-29xjIakNEUY42OBb3wI9Thmawr5EcUUOB3dB8nE51yr/TfKQFCREk+HAOATQHTNedG3VZhgU4wVjl2V3wgOXJA==}
+    peerDependencies:
+      gatsby: ~2.x.x || ~3.x.x || ~4.x.x
+    dependencies:
+      gatsby: 4.10.0_react-dom@17.0.2+react@17.0.2
+      lodash.get: 4.4.2
+      lodash.uniq: 4.5.0
+    dev: false
+
   /gatsby-plugin-react-helmet/5.10.0_gatsby@4.10.0+react-helmet@6.1.0:
     resolution: {integrity: sha512-QcypYLqnwKoD84f9c6Yfajs/sLfVmxPSOPWwHaK+3NG1IjmmQrL42qn2CP6gs29WznGzrThGeGiwIVdA5x31JA==}
     engines: {node: '>=14.15.0'}
@@ -6327,14 +6337,6 @@ packages:
       '@babel/runtime': 7.17.7
       gatsby: 4.10.0_react-dom@17.0.2+react@17.0.2
       generate-robotstxt: 8.0.3
-    dev: false
-
-  /gatsby-plugin-root-import/2.0.8_gatsby@4.10.0:
-    resolution: {integrity: sha512-y07q3c+Pz1qoW3XdkAvl5PbO2+gc0GhcfZYq+Msw2JBe5M+FSByhQVDhZYCVMRVZz0qx6L4qr3w3i04/k4S2HA==}
-    peerDependencies:
-      gatsby: ^2 || ^3 || ^4
-    dependencies:
-      gatsby: 4.10.0_react-dom@17.0.2+react@17.0.2
     dev: false
 
   /gatsby-plugin-theme-ui/0.13.1_96afa633be09a875f1e3af13968615ed:

@@ -20,6 +20,7 @@ module.exports = {
 		lang: config.siteLang
 	},
 	plugins: [
+		'gatsby-plugin-pnpm',
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-theme-ui',
 		{
@@ -68,6 +69,6 @@ module.exports = {
 				icon: 'src/images/avatar.png', // This path is relative to the root of the site.
 			},
 		},
-		'gatsby-plugin-offline',
+		'gatsby-plugin-offline'
 	],
 }
