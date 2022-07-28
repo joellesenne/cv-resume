@@ -46,7 +46,7 @@
 				"gatsby-plugin-offline": "5.19.0",
 				"gatsby-plugin-pnpm": "1.2.10",
 				"gatsby-plugin-react-helmet": "5.19.0",
-				"gatsby-plugin-robots-txt": "1.7.0",
+				"gatsby-plugin-robots-txt": "1.7.1",
 				"gatsby-plugin-theme-ui": "0.14.6",
 				"gatsby-source-filesystem": "4.19.0",
 				"prop-types": "15.8.1",
