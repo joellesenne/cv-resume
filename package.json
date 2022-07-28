@@ -35,11 +35,13 @@
 				}
 		},
 		"dependencies": {
+				"@emotion/react": "11.9.3",
+				"@mdx-js/react": "2.1.2",
 				"@snyk/protect": "1.981.0",
 				"axios": "0.27.2",
 				"gatsby": "4.19.2",
 				"gatsby-image": "3.11.0",
-				"gatsby-plugin-google-analytics": "4.19.0",
+				"gatsby-plugin-google-gtag": "4.19.0",
 				"gatsby-plugin-manifest": "4.19.0",
 				"gatsby-plugin-offline": "5.19.0",
 				"gatsby-plugin-pnpm": "1.2.10",

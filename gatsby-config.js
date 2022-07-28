@@ -46,15 +46,17 @@ module.exports = {
 			}
 		},
 		{
-			resolve: `gatsby-plugin-google-analytics`,
+			resolve: `gatsby-plugin-google-gtag`,
 			options: {
-				trackingId: process.env.GA_TRACKING_ID,
-				// Puts tracking script in the head instead of the body
-				head: false,
-				// Setting this parameter is optional
-				anonymize: true,
-				// Setting this parameter is also optional
-				respectDNT: true,
+				trackingIds: [
+					"process.env.GA_TRACKING_ID", // Google Analytics / GA
+				],
+				pluginConfig: {
+					// Puts tracking script in the head instead of the body
+					head: false,
+					// Setting this parameter is also optional
+					respectDNT: true,
+				},
 			},
 		},
 		{
