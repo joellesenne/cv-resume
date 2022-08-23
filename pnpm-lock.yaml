@@ -12,7 +12,7 @@ specifiers:
   '@babel/core': 7.18.9
   '@babel/eslint-parser': 7.18.9
   '@emotion/react': 11.9.3
-  '@mdx-js/react': 2.1.2
+  '@mdx-js/react': 2.1.3
   '@snyk/protect': 1.981.0
   axios: 0.27.2
   dotenv: 16.0.1
@@ -44,7 +44,7 @@ specifiers:
 
 dependencies:
   '@emotion/react': 11.9.3_@babel+core@7.18.9+react@18.2.0
-  '@mdx-js/react': 2.1.2_react@18.2.0
+  '@mdx-js/react': 2.1.3_react@18.2.0
   '@snyk/protect': 1.981.0
   axios: 0.27.2
   gatsby: 4.19.2_react-dom@18.2.0+react@18.2.0
@@ -55,14 +55,14 @@ dependencies:
   gatsby-plugin-pnpm: 1.2.10_gatsby@4.19.2
   gatsby-plugin-react-helmet: 5.19.0_gatsby@4.19.2+react-helmet@6.1.0
   gatsby-plugin-robots-txt: 1.7.1_gatsby@4.19.2
-  gatsby-plugin-theme-ui: 0.14.6_bdd7e4b74429624a76c4949bb757d83f
+  gatsby-plugin-theme-ui: 0.14.6_22034d10d7790107f720dacc9ba1a47b
   gatsby-source-filesystem: 4.19.0_gatsby@4.19.2
   prop-types: 15.8.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-helmet: 6.1.0_react@18.2.0
   styled-components: 5.3.5_react-dom@18.2.0+react@18.2.0
-  theme-ui: 0.14.6_4983ff029b2a8416d3e4783e133827b2
+  theme-ui: 0.14.6_255b6be1c45b1a3990770e31d0b98c7a
 
 devDependencies:
   '@babel/core': 7.18.9
@@ -2581,8 +2581,8 @@ packages:
     dev: false
     optional: true
 
-  /@mdx-js/react/2.1.2_react@18.2.0:
-    resolution: {integrity: sha512-52e3DTJBrjsw3U51ZCdZ3N1IBaqnbzLIngCSXpKtiYiGr7PIqp3/P/+kym0MPTwBL/y9ZBmCieD8FyrXuEDrRw==}
+  /@mdx-js/react/2.1.3_react@18.2.0:
+    resolution: {integrity: sha512-11n4lTvvRyxq3OYbWJwEYM+7q6PE0GxKbk0AwYIIQmrRkxDeljIsjDQkKOgdr/orgRRbYy5zi+iERdnwe01CHQ==}
     peerDependencies:
       react: '>=16'
     dependencies:
@@ -3303,7 +3303,7 @@ packages:
       csstype: 3.1.0
     dev: false
 
-  /@theme-ui/mdx/0.14.6_6fcb043d7674f736c21372dbc20bcc00:
+  /@theme-ui/mdx/0.14.6_dbe00d69cba4c6cf08b8d076d0b0fbae:
     resolution: {integrity: sha512-vaZWzxOFziI1hptl8BFz7SiSG2TkiUr7LvdIkPf9Tdnt1pp/YFrCS880o1rPTrjW9UmAiRfgJTx7tSpXAWbJyg==}
     peerDependencies:
       '@emotion/react': ^11
@@ -3311,7 +3311,7 @@ packages:
       react: '>16'
     dependencies:
       '@emotion/react': 11.9.3_@babel+core@7.18.9+react@18.2.0
-      '@mdx-js/react': 2.1.2_react@18.2.0
+      '@mdx-js/react': 2.1.3_react@18.2.0
       '@theme-ui/core': 0.14.6_49ccf5cf8561c0d97fce86dcaea1d7d5
       '@theme-ui/css': 0.14.6_@emotion+react@11.9.3
       react: 18.2.0
@@ -3328,7 +3328,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@theme-ui/theme-provider/0.14.6_6fcb043d7674f736c21372dbc20bcc00:
+  /@theme-ui/theme-provider/0.14.6_dbe00d69cba4c6cf08b8d076d0b0fbae:
     resolution: {integrity: sha512-r1/LAzAaFOpo3CzvYTF/Ls0Tm2l2TJFxF8tX2qO3t+Rxo3W/3hlnvD3I86/QNNATJTpDcTqXTKuqOe++UxEbTQ==}
     peerDependencies:
       '@emotion/react': ^11
@@ -3338,7 +3338,7 @@ packages:
       '@theme-ui/color-modes': 0.14.6_49ccf5cf8561c0d97fce86dcaea1d7d5
       '@theme-ui/core': 0.14.6_49ccf5cf8561c0d97fce86dcaea1d7d5
       '@theme-ui/css': 0.14.6_@emotion+react@11.9.3
-      '@theme-ui/mdx': 0.14.6_6fcb043d7674f736c21372dbc20bcc00
+      '@theme-ui/mdx': 0.14.6_dbe00d69cba4c6cf08b8d076d0b0fbae
       react: 18.2.0
     transitivePeerDependencies:
       - '@mdx-js/react'
@@ -7156,7 +7156,7 @@ packages:
       generate-robotstxt: 8.0.3
     dev: false
 
-  /gatsby-plugin-theme-ui/0.14.6_bdd7e4b74429624a76c4949bb757d83f:
+  /gatsby-plugin-theme-ui/0.14.6_22034d10d7790107f720dacc9ba1a47b:
     resolution: {integrity: sha512-WqYCkxNdDCS1cAKjJONSmeNJXgTRXUGYmEM5W9VmMppfV3zsKuLaIB8RE33Z+k6XdZ2ZIj7j+MzcgH76aNfCqg==}
     peerDependencies:
       '@emotion/react': ^11
@@ -7166,10 +7166,10 @@ packages:
       theme-ui: '>=0.12.0'
     dependencies:
       '@emotion/react': 11.9.3_@babel+core@7.18.9+react@18.2.0
-      '@mdx-js/react': 2.1.2_react@18.2.0
+      '@mdx-js/react': 2.1.3_react@18.2.0
       gatsby: 4.19.2_react-dom@18.2.0+react@18.2.0
       react: 18.2.0
-      theme-ui: 0.14.6_4983ff029b2a8416d3e4783e133827b2
+      theme-ui: 0.14.6_255b6be1c45b1a3990770e31d0b98c7a
     dev: false
 
   /gatsby-plugin-typescript/4.19.0_gatsby@4.19.2:
@@ -11593,7 +11593,7 @@ packages:
   /text-table/0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
 
-  /theme-ui/0.14.6_4983ff029b2a8416d3e4783e133827b2:
+  /theme-ui/0.14.6_255b6be1c45b1a3990770e31d0b98c7a:
     resolution: {integrity: sha512-DFjZuRGT+f/vXbusb4XzbWgGVtLhNfI2l89XYgT9fd3lTZnUsPPT+UQXX3/nHCHTx6X8likV6gjiKy6DUS2BGA==}
     peerDependencies:
       react: '>16'
@@ -11603,8 +11603,8 @@ packages:
       '@theme-ui/components': 0.14.6_49ccf5cf8561c0d97fce86dcaea1d7d5
       '@theme-ui/core': 0.14.6_49ccf5cf8561c0d97fce86dcaea1d7d5
       '@theme-ui/css': 0.14.6_@emotion+react@11.9.3
-      '@theme-ui/mdx': 0.14.6_6fcb043d7674f736c21372dbc20bcc00
-      '@theme-ui/theme-provider': 0.14.6_6fcb043d7674f736c21372dbc20bcc00
+      '@theme-ui/mdx': 0.14.6_dbe00d69cba4c6cf08b8d076d0b0fbae
+      '@theme-ui/theme-provider': 0.14.6_dbe00d69cba4c6cf08b8d076d0b0fbae
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     transitivePeerDependencies:
