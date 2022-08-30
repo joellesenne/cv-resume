@@ -35,7 +35,7 @@
 				}
 		},
 		"dependencies": {
-				"@emotion/react": "11.9.3",
+				"@emotion/react": "11.10.4",
 				"@mdx-js/react": "2.1.2",
 				"@snyk/protect": "1.981.0",
 				"axios": "0.27.2",
