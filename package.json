@@ -37,7 +37,7 @@
 		"dependencies": {
 				"@emotion/react": "11.9.3",
 				"@mdx-js/react": "2.1.2",
-				"@snyk/protect": "1.981.0",
+				"@snyk/protect": "1.1013.0",
 				"axios": "0.27.2",
 				"gatsby": "4.19.2",
 				"gatsby-image": "3.11.0",

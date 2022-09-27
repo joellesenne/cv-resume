@@ -13,7 +13,7 @@ specifiers:
   '@babel/eslint-parser': 7.18.9
   '@emotion/react': 11.9.3
   '@mdx-js/react': 2.1.2
-  '@snyk/protect': 1.981.0
+  '@snyk/protect': 1.1013.0
   axios: 0.27.2
   dotenv: 16.0.1
   eslint: 8.20.0
@@ -45,7 +45,7 @@ specifiers:
 dependencies:
   '@emotion/react': 11.9.3_@babel+core@7.18.9+react@18.2.0
   '@mdx-js/react': 2.1.2_react@18.2.0
-  '@snyk/protect': 1.981.0
+  '@snyk/protect': 1.1013.0
   axios: 0.27.2
   gatsby: 4.19.2_react-dom@18.2.0+react@18.2.0
   gatsby-image: 3.11.0
@@ -3142,8 +3142,8 @@ packages:
       lodash.deburr: 4.1.0
     dev: false
 
-  /@snyk/protect/1.981.0:
-    resolution: {integrity: sha512-6Kk9wFNyO6fzaDtbAs0iNrlq0TG2xpKRMazQ2bJaXF5ESV3eOX0DGzlYliALaqbOY/bRE3qaQitj6t1T9LgKUg==}
+  /@snyk/protect/1.1013.0:
+    resolution: {integrity: sha512-w67p3tncQPJjhrdsLxcDh2PhJEcU2eRkYhZO6nbSZipGmznPovveFw24BTYRsefGPhiAMPP7gbjGVVRL1rTrdg==}
     engines: {node: '>=10'}
     hasBin: true
     dev: false
