@@ -1,5 +1,5 @@
 const meta = {
-	siteTitle: 'CV',
+	siteTitle: 'CV resume',
 	siteDescription: 'Joël Lesenne, Développeur Web. Passionné par l’utilisation des technologies modernes et très désireux  d’améliorer les compétences existantes et d’en apprendre de nouvelles.',
 	siteAuthor: 'Joël Lesenne',
 	siteUrl: 'https://cv.joellesenne.dev',

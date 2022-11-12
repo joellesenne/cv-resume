@@ -8,7 +8,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 First fork this project.
 
 ```bach
-- git clone <https://github.com/joellesenne/cv.joellesenne.dev.git>
+- git clone <https://github.com/joellesenne/cv-resume.git>
 - npm install
 
 - git checkout -b my-fix

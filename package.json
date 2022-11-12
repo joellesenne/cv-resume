@@ -1,17 +1,17 @@
 {
-		"name": "cv.joellesenne.dev",
-		"version": "1.0.1",
+		"name": "cv-resume",
+		"version": "2.0.0",
 		"description": "My online CV using Gatsby.js",
 		"keywords": [
 				"gatsby"
 		],
 		"homepage": "https://cv.joellesenne.dev",
 		"bugs": {
-				"url": "https://github.com/joellesenne/cv.joellesenne.dev/issues"
+				"url": "https://github.com/joellesenne/cv-resume/issues"
 		},
 		"repository": {
 				"type": "git",
-				"url": "git+https://github.com/joellesenne/cv.joellesenne.dev.git"
+				"url": "git+https://github.com/joellesenne/cv-resume.git"
 		},
 		"license": "MIT",
 		"author": "Joël Lesenne <contact@joellesenne.dev>",
@@ -35,38 +35,37 @@
 				}
 		},
 		"dependencies": {
-				"@emotion/react": "11.9.3",
-				"@mdx-js/react": "2.1.2",
-				"@snyk/protect": "1.981.0",
-				"axios": "0.27.2",
-				"gatsby": "4.19.2",
-				"gatsby-image": "3.11.0",
-				"gatsby-plugin-google-gtag": "4.19.0",
-				"gatsby-plugin-manifest": "4.19.0",
-				"gatsby-plugin-offline": "5.19.0",
+				"@emotion/react": "11.10.5",
+				"@mdx-js/react": "2.1.5",
+				"axios": "1.1.3",
+				"gatsby": "5.0.1",
+				"gatsby-plugin-google-gtag": "5.0.0",
+				"gatsby-plugin-image": "3.0.0",
+				"gatsby-plugin-manifest": "5.0.0",
+				"gatsby-plugin-offline": "6.0.0",
 				"gatsby-plugin-pnpm": "1.2.10",
-				"gatsby-plugin-react-helmet": "5.19.0",
+				"gatsby-plugin-react-helmet": "6.0.0",
 				"gatsby-plugin-robots-txt": "1.7.1",
-				"gatsby-plugin-theme-ui": "0.14.6",
-				"gatsby-source-filesystem": "4.19.0",
+				"gatsby-plugin-theme-ui": "0.15.4",
+				"gatsby-source-filesystem": "5.0.0",
 				"prop-types": "15.8.1",
 				"react": "18.2.0",
 				"react-dom": "18.2.0",
 				"react-helmet": "6.1.0",
-				"styled-components": "5.3.5",
-				"theme-ui": "0.14.6"
+				"styled-components": "5.3.6",
+				"theme-ui": "0.15.4"
 		},
 		"devDependencies": {
-				"@babel/core": "7.18.9",
-				"@babel/eslint-parser": "7.18.9",
-				"dotenv": "16.0.1",
-				"eslint": "8.20.0",
+				"@babel/core": "7.20.2",
+				"@babel/eslint-parser": "7.19.1",
+				"dotenv": "16.0.3",
+				"eslint": "8.27.0",
 				"eslint-config-airbnb": "19.0.4",
 				"eslint-config-prettier": "8.5.0",
 				"eslint-plugin-import": "2.26.0",
 				"eslint-plugin-jsx-a11y": "6.6.1",
 				"eslint-plugin-prettier": "4.2.1",
-				"eslint-plugin-react": "7.30.1",
+				"eslint-plugin-react": "7.31.10",
 				"eslint-plugin-react-hooks": "4.6.0",
 				"prettier": "2.7.1"
 		},
