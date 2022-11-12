@@ -5,16 +5,18 @@ import Layout from '../components/Layout'
 import Article from '../components/Article'
 import Seo from '../components/Seo'
 
-const IndexPage = () => {
-  return (
-    <>
-			<GlobalStyles />
-      <Layout>
-        <Seo title="CV" />
-        <Article />
-      </Layout>
-    </>
-  )
+class IndexPage extends React.Component {
+  render() {
+    return (
+      <>
+        <GlobalStyles />
+        <Layout>
+          <Seo title='CV' />
+          <Article />
+        </Layout>
+      </>
+    )
+  }
 }
 
 export default IndexPage

@@ -20,6 +20,7 @@ module.exports = {
 		lang: config.siteLang
 	},
 	plugins: [
+		`gatsby-plugin-image`,
 		'gatsby-plugin-pnpm',
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-theme-ui',

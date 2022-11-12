@@ -7,14 +7,17 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 
 
-const Layout = ({ children }) => {
-	return (
-		<LayoutStyled>
-			<Header/>
-			<section>{children}</section>
-			<Footer />
-		</LayoutStyled>
-	)
+class Layout extends React.Component {
+	render() {
+		let { children } = this.props
+		return (
+			<LayoutStyled>
+				<Header />
+				<section>{children}</section>
+				<Footer />
+			</LayoutStyled>
+		)
+	}
 }
 
 Layout.propTypes = {
