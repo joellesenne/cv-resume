@@ -11,7 +11,7 @@ const training = [
 function Content (props) {
   const content = props.training.map((value) =>
     <article key={value.id}>
-      <p className='training'>{value.date} – {value.description} – {value.label}
+      <p className='training'>- {value.date} – {value.description} – {value.label}
       </p>
     </article>
   )
