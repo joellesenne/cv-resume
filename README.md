@@ -1,6 +1,6 @@
-<h1 align="center">Welcome to cv.joellesenne.dev 👋</h1>
+<h1 align="center">Welcome to cv-resume 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D16.0.0-blue.svg" />
   <img src="https://img.shields.io/badge/npm-%3E%3D7.13.0-blue.svg" />
   <a href="https://github.com/joellesenne/cv.joellesenne.dev#readme" target="_blank">
@@ -73,7 +73,7 @@ gatsby build
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! <br />Feel free to check [issues page](https://github.com/joellesenne/cv.joellesenne.dev/issues). You can also take a look at the [contributing guide](https://github.com/joellesenne/cv.joellesenne.dev/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome! <br />Feel free to check [issues page](https://github.com/joellesenne/cv-resume/issues). You can also take a look at the [contributing guide](https://github.com/joellesenne/cv-resume/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 
@@ -85,7 +85,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Joël Lesenne](https://github.com/joellesenne). <br />This project is [MIT](https://github.com/joellesenne/cv.joellesenne.dev/blob/master/LICENSE) licensed.
+Copyright © 2021 [Joël Lesenne](https://github.com/joellesenne). <br />This project is [MIT](LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
