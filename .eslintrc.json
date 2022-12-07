@@ -1,19 +1,25 @@
-module.exports = {
+{
   "extends": ["airbnb", "prettier"],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
-	"ecmaVersion": 6,
-	"sourceType": "module",
-	"ecmaFeatures": {
-	  "experimentalObjectRestSpread": true,
-	  "impliedStrict": true,
-	  "classes": true
-	}
+	  "requireConfigFile": false,
+	  "babelOptions": {
+		  "babelrc": false,
+		  "configFile": false
+	  },
+	  "ecmaVersion": 6,
+	  "sourceType": "module",
+	  "ecmaFeatures": {
+		"experimentalObjectRestSpread": true,
+	  	"impliedStrict": true,
+		"classes": true,
+		"jsx": true
+	  }
   },
   "env": {
-	"browser": true,
-	"node": true,
-	"jquery": true
+	  "browser": true,
+	  "node": true,
+	  "jquery": true
   },
   "rules": {
 	"no-unused-vars": [
