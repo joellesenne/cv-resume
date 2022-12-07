@@ -1,5 +1,7 @@
+// eslint-disable-next-line import/no-unresolved
 import { createGlobalStyle } from 'styled-components'
-import theme from '../../config/theme';
+// eslint-disable-next-line import/no-unresolved
+import theme from '../../config/theme'
 
 export const GlobalStyles = createGlobalStyle`
 	:root {
@@ -31,7 +33,6 @@ export const GlobalStyles = createGlobalStyle`
 	html {
 		box-sizing: inherit;
     font-size: 62.5%;
-    line-height: 1.15;
     overflow-y: scroll;
     -webkit-text-size-adjust: 100%;
     @media (prefers-reduced-motion: no-preference) {
@@ -41,12 +42,13 @@ export const GlobalStyles = createGlobalStyle`
 
 	body {
     margin: 0;
-		padding: 2.5rem;
+		padding-block: 2.5rem;
+    padding-inline: 2.5rem;
     max-width: inherit;
 		font-family: 'Overpass', sans-serif;
-    font-size: 1.8rem;
-    line-height: 1.618;
-		letter-spacing: 0.06rem;
+    font-size: 16px;
+    line-height: 1.5;
+		letter-spacing: 0.06ex;
     font-kerning: normal;
     font-feature-settings: "liga","kern";
     text-rendering: optimizeLegibility;
@@ -78,7 +80,6 @@ export const GlobalStyles = createGlobalStyle`
     color: inherit;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    -ms-word-break: break-all;
     word-break: break-word;
     -ms-hyphens: auto;
     -moz-hyphens: auto;
@@ -87,18 +88,19 @@ export const GlobalStyles = createGlobalStyle`
     text-transform: uppercase;
   }
 	h2 {
-		font-size: 1.5rem;
+    margin-block-start: 1.5rem;
+		font-size: 1.5ex;
 		opacity: 0.6;
 	}
 	h3 {
-		font-size: 1.3rem;
+		font-size: 1.3ex;
 	}
 	h5 {
     text-transform: lowercase;
 	}
   p {
     margin: 0;
-    font-size: 1.25em;
+    font-size: 1.75ex;
   }
   a {
     display: inline;

@@ -1,23 +1,22 @@
+// eslint-disable-next-line import/no-unresolved
 import styled from 'styled-components'
 
 export const HeaderStyled = styled.header`
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: auto;
-	grid-template-areas: 'name name name picture picture' 'title title title picture picture' 'email email email . . ' 'site site site . . ' 'phone phone phone . . ';
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 'name name name svg svg' 'title title title svg svg' 'email email email . . ' 'site site site . . ' 'phone phone phone . . ';
   margin-block-start: 2rem;
   margin-block-end: 0;
   margin-inline: 1rem;
-	padding-block: 0.5rem;
+  padding-block: 0.5rem;
   padding-inline: 0.5rem;
-	& picture {
-    grid-area: picture;
+  & svg {
+    grid-area: svg;
     margin-block: 0;
     margin-block-start: 1rem;
     margin-inline-end: 0;
     overflow: hidden;
-    border-radius: 50%;
-    object-fit: cover;
     @media (max-width: 768px) {
       display: none;
     }
