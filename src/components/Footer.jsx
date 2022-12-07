@@ -3,7 +3,7 @@ import { FooterStyled } from './styled/FooterStyled'
 
 import Skills from './modules/Skills'
 
-const skills = ['Photographie', 'PAO', 'Vélo', 'Boxe']
+const skills = ['Photographie', 'PAO', 'Musculation', 'Escalade']
 
 class Footer extends React.Component {
   render() {
