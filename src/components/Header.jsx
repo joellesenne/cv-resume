@@ -1,16 +1,28 @@
 import React from 'react'
-import { HeaderStyled } from './styled/HeaderStyled'
+import Avatar from 'avataaars'
 
-import Profile from '../images/avatar.svg'
+
+import { HeaderStyled } from './styled/HeaderStyled'
 
 class Header extends React.Component {
   render() {
     return (
       <HeaderStyled>
-        <picture>
-          <img src={Profile} alt='Profile' />
-        </picture>
-        <h1>Joël <br /> Lesenne</h1>
+        <Avatar
+          avatarStyle='Transparent'
+          topType='ShortHairShortWaved'
+          accessoriesType='Prescription02'
+          hairColor='Black'
+          facialHairType='BeardLight'
+          facialHairColor='Black'
+          clotheType='BlazerShirt'
+          eyeType='Default'
+          eyebrowType='Default'
+          mouthType='Twinkle'
+          skinColor='Light'
+        />
+
+        <h1>Joël <br />Lesenne</h1>
         <p>Développeur Web</p>
         <a className='email' href='mailto:contact@joellesenne.dev'>contact@joellesenne.dev</a>
         <a className='phone' href='tel:+33611578371'>+33 611 578 371</a>
