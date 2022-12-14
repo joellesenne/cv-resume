@@ -13,7 +13,7 @@ specifiers:
   '@babel/eslint-parser': 7.19.1
   '@babel/preset-env': ^7.20.2
   '@emotion/react': 11.10.5
-  '@mdx-js/react': 2.1.5
+  '@mdx-js/react': 2.2.1
   '@theme-ui/mdx': ^0.15.4
   avataaars: ^2.0.0
   axios: 1.2.1
@@ -46,7 +46,7 @@ specifiers:
 
 dependencies:
   '@emotion/react': 11.10.5_zavbqmrropwrojvx6ojaa4s7im
-  '@mdx-js/react': 2.1.5_react@18.2.0
+  '@mdx-js/react': 2.2.1_react@18.2.0
   '@theme-ui/mdx': 0.15.4_hp5f5nkljdiwilp4rgxyefcplu
   avataaars: 2.0.0_react@18.2.0
   axios: 1.2.1
@@ -57,7 +57,7 @@ dependencies:
   gatsby-plugin-offline: 6.2.0_mmfbi2fzwqkczhgnjxxufhvoz4
   gatsby-plugin-react-helmet: 6.2.0_ek3fqcyrhgzo2nhiew6ycgephe
   gatsby-plugin-robots-txt: 1.8.0_gatsby@5.2.0
-  gatsby-plugin-theme-ui: 0.15.4_szi2ms2dcvihkq7iznntgkae64
+  gatsby-plugin-theme-ui: 0.15.4_xzrbtookhtyp52e74ht4bnkxby
   gatsby-source-filesystem: 5.2.0_gatsby@5.2.0
   prop-types: 15.8.1
   react: 18.2.0
@@ -1927,8 +1927,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@mdx-js/react/2.1.5_react@18.2.0:
-    resolution: {integrity: sha512-3Az1I6SAWA9R38rYjz5rXBrGKeZhq96CSSyQtqY+maPj8stBsoUH5pNcmIixuGkufYsh8F5+ka2CVPo2fycWZw==}
+  /@mdx-js/react/2.2.1_react@18.2.0:
+    resolution: {integrity: sha512-YdXcMcEnqZhzql98RNrqYo9cEhTTesBiCclEtoiQUbJwx87q9453GTapYU6kJ8ZZ2ek1Vp25SiAXEFy5O/eAPw==}
     peerDependencies:
       react: '>=16'
     dependencies:
@@ -5956,7 +5956,7 @@ packages:
       generate-robotstxt: 8.0.3
     dev: false
 
-  /gatsby-plugin-theme-ui/0.15.4_szi2ms2dcvihkq7iznntgkae64:
+  /gatsby-plugin-theme-ui/0.15.4_xzrbtookhtyp52e74ht4bnkxby:
     resolution: {integrity: sha512-SlkZ+qWPX2QI+udR9mbZPBKIzyhKmPXDVHWbBLT6mWdK0nj9G16vxQbWvo4ElKaweNojtbZ7/MdchBRPQA8lLQ==}
     peerDependencies:
       '@emotion/react': ^11
@@ -5968,7 +5968,7 @@ packages:
       theme-ui: ^0.15.4
     dependencies:
       '@emotion/react': 11.10.5_zavbqmrropwrojvx6ojaa4s7im
-      '@mdx-js/react': 2.1.5_react@18.2.0
+      '@mdx-js/react': 2.2.1_react@18.2.0
       '@theme-ui/mdx': 0.15.4_hp5f5nkljdiwilp4rgxyefcplu
       gatsby: 5.2.0_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
