@@ -23,8 +23,6 @@
 				"lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
 				"lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
 				"serve": "gatsby serve",
-				"snyk-prepare": "npm run snyk-protect",
-				"snyk-protect": "snyk-protect",
 				"start": "npm run develop",
 				"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
 		},
