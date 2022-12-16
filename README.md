@@ -3,14 +3,14 @@
   <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D16.0.0-blue.svg" />
   <img src="https://img.shields.io/badge/npm-%3E%3D7.13.0-blue.svg" />
-  <a href="https://github.com/joellesenne/cv.joellesenne.dev#readme" target="_blank">
+  <a href="https://github.com/joellesenne/cv-resume#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/joellesenne/cv.joellesenne.dev/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/joellesenne/cv-resume/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/joellesenne/cv.joellesenne.dev/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/joellesenne/cv.joellesenne.dev" />
+  <a href="https://github.com/joellesenne/cv-resume/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/joellesenne/cv-resume" />
   </a>
   <a href="https://twitter.com/joellesenne" target="_blank">
     <img alt="Twitter: joellesenne" src="https://img.shields.io/twitter/follow/joellesenne.svg?style=social" />
@@ -19,14 +19,11 @@
 
 > My online CV using Gatsby.js
 
-### 🏠 [Homepage](https://github.com/joellesenne/cv.joellesenne.dev)
+### 🏠 [Homepage](https://github.com/joellesenne/cv-reseme)
 
 ### ✨ [Demo](https://cv.joellesenne.dev)
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
+**Table of Contents** 
 - [Prerequisites](#prerequisites)
 - [Install](#install)
 - [Usage](#usage)
@@ -39,8 +36,9 @@
 
 ## Prerequisites
 
-- node >=14.0.0
-- npm >=7.0.0
+This project requires [node](https://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
+
+To learn Gatsby, check out the [Gatsby documentation](https://www.gatsbyjs.com/docs).
 
 ## Install
 
@@ -73,19 +71,18 @@ gatsby build
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! <br />Feel free to check [issues page](https://github.com/joellesenne/cv-resume/issues). You can also take a look at the [contributing guide](https://github.com/joellesenne/cv-resume/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/joellesenne/cv-resume/issues). You can also take a look at the [contributing guide](https://github.com/joellesenne/cv-resume/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
 <a href="https://www.patreon.com/joellesenne">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+  <img alt="Become a patron" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
 ## 📝 License
 
-Copyright © 2021 [Joël Lesenne](https://github.com/joellesenne). <br />This project is [MIT](LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+Copyright © 2022 [Joël Lesenne](https://github.com/joellesenne). <br />This project is [MIT](LICENSE) licensed.
