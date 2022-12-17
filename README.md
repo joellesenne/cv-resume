@@ -1,20 +1,21 @@
 <h1 align="center">Welcome to cv-resume 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/node-%3E%3D16.0.0-blue.svg" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D7.13.0-blue.svg" />
-  <a href="https://github.com/joellesenne/cv-resume#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/joellesenne/cv-resume/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/joellesenne/cv-resume/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/joellesenne/cv-resume" />
-  </a>
-  <a href="https://twitter.com/joellesenne" target="_blank">
-    <img alt="Twitter: joellesenne" src="https://img.shields.io/twitter/follow/joellesenne.svg?style=social" />
-  </a>
+    <a href="https://www.codacy.com/gh/joellesenne/cv-resume/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joellesenne/cv-resume&amp;utm_campaign=Badge_Grade">
+        <img alt="Codacy Badge" src="https://app.codacy.com/project/badge/Grade/12f6b884cb4049638ac87adf66005cce"/>
+    </a>
+    <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
+    <a href="https://github.com/joellesenne/cv-resume#readme" target="_blank">
+        <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+    </a>
+    <a href="https://github.com/joellesenne/cv-resume/graphs/commit-activity" target="_blank">
+        <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+    </a>
+    <a href="https://github.com/joellesenne/cv-resume/blob/master/LICENSE" target="_blank">
+        <img alt="License: MIT" src="https://img.shields.io/github/license/joellesenne/cv-resume" />
+    </a>
+    <a href="https://twitter.com/joellesenne" target="_blank">
+        <img alt="Twitter: joellesenne" src="https://img.shields.io/twitter/follow/joellesenne.svg?style=social" />
+    </a>
 </p>
 
 > My online CV using Gatsby.js
@@ -32,8 +33,6 @@
 - [Show your support](#show-your-support)
 - [📝 License](#-license)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Prerequisites
 
 This project requires [node](https://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
@@ -43,6 +42,11 @@ To learn Gatsby, check out the [Gatsby documentation](https://www.gatsbyjs.com/d
 ## Install
 
 ```sh
+# Clone this repository
+git clone  https://github.com/joellesenne/cv-resume.git
+
+cd cv-resume
+
 npm install
 
 # OR
