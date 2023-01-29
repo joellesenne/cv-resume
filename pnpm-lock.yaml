@@ -24,7 +24,7 @@ specifiers:
   eslint-plugin-import: 2.26.0
   eslint-plugin-jsx-a11y: 6.6.1
   eslint-plugin-prettier: 4.2.1
-  eslint-plugin-react: 7.31.11
+  eslint-plugin-react: 7.32.2
   eslint-plugin-react-hooks: 4.6.0
   gatsby: 5.3.2
   gatsby-plugin-google-gtag: 5.3.0
@@ -72,12 +72,12 @@ devDependencies:
   '@babel/preset-env': 7.20.2_@babel+core@7.20.5
   dotenv: 16.0.3
   eslint: 8.30.0
-  eslint-config-airbnb: 19.0.4_j3uyvjk2vb2gkfzhvqukeu5rlq
+  eslint-config-airbnb: 19.0.4_ew5oyxmouzbrvmdkeuvqjhespe
   eslint-config-prettier: 8.5.0_eslint@8.30.0
   eslint-plugin-import: 2.26.0_eslint@8.30.0
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.30.0
   eslint-plugin-prettier: 4.2.1_kl4pe43v5b43npmso5hoplpbyi
-  eslint-plugin-react: 7.31.11_eslint@8.30.0
+  eslint-plugin-react: 7.32.2_eslint@8.30.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.30.0
   gatsby-plugin-pnpm: 1.2.10_gatsby@5.3.2
   prettier: 2.8.1
@@ -4778,7 +4778,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-config-airbnb/19.0.4_j3uyvjk2vb2gkfzhvqukeu5rlq:
+  /eslint-config-airbnb/19.0.4_ew5oyxmouzbrvmdkeuvqjhespe:
     resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -4792,7 +4792,7 @@ packages:
       eslint-config-airbnb-base: 15.0.0_2lbwmhbr7bncddqbzzpg77o75m
       eslint-plugin-import: 2.26.0_eslint@8.30.0
       eslint-plugin-jsx-a11y: 6.6.1_eslint@8.30.0
-      eslint-plugin-react: 7.31.11_eslint@8.30.0
+      eslint-plugin-react: 7.32.2_eslint@8.30.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.30.0
       object.assign: 4.1.4
       object.entries: 1.1.6
@@ -4807,7 +4807,7 @@ packages:
       eslint: 8.30.0
     dev: true
 
-  /eslint-config-react-app/6.0.0_7txp2jyvjamkd2ufapj6n4xkwe:
+  /eslint-config-react-app/6.0.0_dyvukhtrrrfcs6shriijoyxnwe:
     resolution: {integrity: sha512-bpoAAC+YRfzq0dsTk+6v9aHm/uqnDwayNAXleMypGl6CpxI9oXXscVHo4fk3eJPIn+rsbtNetB4r/ZIidFIE8A==}
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
@@ -4838,7 +4838,7 @@ packages:
       eslint-plugin-flowtype: 5.10.0_eslint@7.32.0
       eslint-plugin-import: 2.26.0_ffi3uiz42rv3jyhs6cr7p7qqry
       eslint-plugin-jsx-a11y: 6.6.1_eslint@7.32.0
-      eslint-plugin-react: 7.31.11_eslint@7.32.0
+      eslint-plugin-react: 7.32.2_eslint@7.32.0
       eslint-plugin-react-hooks: 4.6.0_eslint@7.32.0
 
   /eslint-import-resolver-node/0.3.6:
@@ -5052,8 +5052,8 @@ packages:
       eslint: 8.30.0
     dev: true
 
-  /eslint-plugin-react/7.31.11_eslint@7.32.0:
-    resolution: {integrity: sha512-TTvq5JsT5v56wPa9OYHzsrOlHzKZKjV+aLgS+55NJP/cuzdiQPC7PfYoUjMoxlffKtvijpk7vA/jmuqRb9nohw==}
+  /eslint-plugin-react/7.32.2_eslint@7.32.0:
+    resolution: {integrity: sha512-t2fBMa+XzonrrNkyVirzKlvn5RXzzPwRHtMvLAtVZrt8oxgnTQaYbU6SXTOO1mwQgp1y5+toMSKInnzGr0Knqg==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
@@ -5075,8 +5075,8 @@ packages:
       semver: 6.3.0
       string.prototype.matchall: 4.0.8
 
-  /eslint-plugin-react/7.31.11_eslint@8.30.0:
-    resolution: {integrity: sha512-TTvq5JsT5v56wPa9OYHzsrOlHzKZKjV+aLgS+55NJP/cuzdiQPC7PfYoUjMoxlffKtvijpk7vA/jmuqRb9nohw==}
+  /eslint-plugin-react/7.32.2_eslint@8.30.0:
+    resolution: {integrity: sha512-t2fBMa+XzonrrNkyVirzKlvn5RXzzPwRHtMvLAtVZrt8oxgnTQaYbU6SXTOO1mwQgp1y5+toMSKInnzGr0Knqg==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
@@ -6213,11 +6213,11 @@ packages:
       enhanced-resolve: 5.12.0
       error-stack-parser: 2.1.4
       eslint: 7.32.0
-      eslint-config-react-app: 6.0.0_7txp2jyvjamkd2ufapj6n4xkwe
+      eslint-config-react-app: 6.0.0_dyvukhtrrrfcs6shriijoyxnwe
       eslint-plugin-flowtype: 5.10.0_eslint@7.32.0
       eslint-plugin-import: 2.26.0_ffi3uiz42rv3jyhs6cr7p7qqry
       eslint-plugin-jsx-a11y: 6.6.1_eslint@7.32.0
-      eslint-plugin-react: 7.31.11_eslint@7.32.0
+      eslint-plugin-react: 7.32.2_eslint@7.32.0
       eslint-plugin-react-hooks: 4.6.0_eslint@7.32.0
       eslint-webpack-plugin: 2.7.0_u2ubl3shblmc7225ne6wflnyua
       event-source-polyfill: 1.0.25
