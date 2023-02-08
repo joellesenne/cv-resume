@@ -68,7 +68,7 @@
 		"eslint-plugin-react": "7.31.11",
 		"eslint-plugin-react-hooks": "4.6.0",
 		"gatsby-plugin-pnpm": "^1.2.10",
-		"prettier": "2.8.1"
+		"prettier": "2.8.4"
 	},
 	"engines": {
 		"node": ">=18.12.1",
