@@ -55,8 +55,8 @@
 		"theme-ui": "0.15.5"
 	},
 	"devDependencies": {
-		"@babel/core": "7.20.12",
-		"@babel/eslint-parser": "7.19.1",
+		"@babel/core": "7.21.4",
+		"@babel/eslint-parser": "7.21.3",
 		"@babel/preset-env": "^7.20.2",
 		"dotenv": "16.0.3",
 		"eslint": "8.34.0",
