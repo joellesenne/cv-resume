@@ -69,19 +69,5 @@
 		"eslint-plugin-react-hooks": "4.6.0",
 		"gatsby-plugin-pnpm": "^1.2.10",
 		"prettier": "2.8.7"
-	},
-	"engines": {
-		"node": ">=18.12.1",
-		"npm": ">=8.19.2"
-	},
-	"pnpm": {
-		"overrides": {
-			"ansi-html@<0.0.8": ">=0.0.8",
-			"node-fetch@<2.6.7": ">=2.6.7",
-			"ansi-regex@>2.1.1 <5.0.1": ">=5.0.1",
-			"immer@<9.0.6": ">=9.0.6",
-			"ws@>=7.0.0 <7.4.6": ">=7.4.6",
-			"browserslist@>=4.0.0 <4.16.5": ">=4.16.5"
-		}
 	}
 }
