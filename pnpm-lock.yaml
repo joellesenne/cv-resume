@@ -8,7 +8,7 @@ specifiers:
   '@mdx-js/react': 2.3.0
   '@theme-ui/mdx': ^0.15.7
   avataaars: ^2.0.0
-  axios: 1.3.5
+  axios: 1.4.0
   dotenv: 16.0.3
   eslint: 8.38.0
   eslint-config-airbnb: 19.0.4
@@ -41,7 +41,7 @@ dependencies:
   '@mdx-js/react': 2.3.0_react@18.2.0
   '@theme-ui/mdx': 0.15.7_3og6jmu6wvzuytygvdoxepq3x4
   avataaars: 2.0.0_react@18.2.0
-  axios: 1.3.5
+  axios: 1.4.0
   gatsby: 5.8.1_biqbaboplfbrettd7655fr4n2y
   gatsby-plugin-google-gtag: 5.8.0_jaoqzzfbpumcku6ctf5e6g4hxi
   gatsby-plugin-image: 3.8.0_biba3wyzyskaswvq2szspsyqzy
@@ -3293,10 +3293,10 @@ packages:
     transitivePeerDependencies:
       - debug
 
-  /axios/1.3.5:
-    resolution: {integrity: sha512-glL/PvG/E+xCWwV8S6nCHcrfg1exGx7vxyUIivIA1iL7BIh6bePylCfVHwp6k13ao7SATxB6imau2kqY+I67kw==}
+  /axios/1.4.0:
+    resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
     dependencies:
-      follow-redirects: 1.15.2_debug@4.3.4
+      follow-redirects: 1.15.2
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -5624,6 +5624,16 @@ packages:
 
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+
+  /follow-redirects/1.15.2:
+    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: false
 
   /follow-redirects/1.15.2_debug@4.3.4:
     resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
