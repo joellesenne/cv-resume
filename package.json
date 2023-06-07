@@ -33,7 +33,7 @@
 		}
 	},
 	"dependencies": {
-		"@emotion/react": "11.10.6",
+		"@emotion/react": "11.11.1",
 		"@mdx-js/react": "2.3.0",
 		"@theme-ui/mdx": "^0.15.7",
 		"avataaars": "^2.0.0",
