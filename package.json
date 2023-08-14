@@ -45,14 +45,14 @@
 		"gatsby-plugin-offline": "6.11.0",
 		"gatsby-plugin-react-helmet": "6.11.0",
 		"gatsby-plugin-robots-txt": "1.8.0",
-		"gatsby-plugin-theme-ui": "0.16.0",
+		"gatsby-plugin-theme-ui": "0.16.1",
 		"gatsby-source-filesystem": "5.11.0",
 		"prop-types": "15.8.1",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"react-helmet": "6.1.0",
 		"styled-components": "6.0.4",
-		"theme-ui": "0.16.0"
+		"theme-ui": "0.16.1"
 	},
 	"devDependencies": {
 		"@babel/core": "7.22.9",

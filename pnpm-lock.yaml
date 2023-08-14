@@ -26,7 +26,7 @@ specifiers:
   gatsby-plugin-pnpm: ^1.2.10
   gatsby-plugin-react-helmet: 6.11.0
   gatsby-plugin-robots-txt: 1.8.0
-  gatsby-plugin-theme-ui: 0.16.0
+  gatsby-plugin-theme-ui: 0.16.1
   gatsby-source-filesystem: 5.11.0
   prettier: 3.0.0
   prop-types: 15.8.1
@@ -34,7 +34,7 @@ specifiers:
   react-dom: 18.2.0
   react-helmet: 6.1.0
   styled-components: 6.0.4
-  theme-ui: 0.16.0
+  theme-ui: 0.16.1
 
 dependencies:
   '@emotion/react': 11.11.1_react@18.2.0
@@ -49,14 +49,14 @@ dependencies:
   gatsby-plugin-offline: 6.11.0_6yjevpw7rkwyylqiqszfdo5zpm
   gatsby-plugin-react-helmet: 6.11.0_jfh4wrq3qc5o2ejrle25hfcxb4
   gatsby-plugin-robots-txt: 1.8.0_gatsby@5.11.0
-  gatsby-plugin-theme-ui: 0.16.0_uiks5mntbwplde5ap3xbso6xla
+  gatsby-plugin-theme-ui: 0.16.1_lhgtufidugg64v36hfycpt2twa
   gatsby-source-filesystem: 5.11.0_gatsby@5.11.0
   prop-types: 15.8.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-helmet: 6.1.0_react@18.2.0
   styled-components: 6.0.4_biqbaboplfbrettd7655fr4n2y
-  theme-ui: 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
+  theme-ui: 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
 
 devDependencies:
   '@babel/core': 7.22.9
@@ -2737,33 +2737,33 @@ packages:
     dependencies:
       defer-to-connect: 2.0.1
 
-  /@theme-ui/color-modes/0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye:
-    resolution: {integrity: sha512-yMfFzQz2uvbVPk4EyZD5/3AzXEQxgfUtTtnDMppqczVXgVk5RQXsUwz6VCMoVe+EwftLuaKgJZH3rgosLVRmvg==}
+  /@theme-ui/color-modes/0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye:
+    resolution: {integrity: sha512-G2YoNEMwZroRS0DcftUG+E/8WM5/Osf8TRrQLLK+L43HJ4BmaWuBmVeyoNOaPBDlAuqMBx2203VRgoPmUaMqOg==}
     peerDependencies:
       '@emotion/react': ^11.11.1
       react: '>=18'
     dependencies:
       '@emotion/react': 11.11.1_react@18.2.0
-      '@theme-ui/core': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
-      '@theme-ui/css': 0.16.0_@emotion+react@11.11.1
+      '@theme-ui/core': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/css': 0.16.1_@emotion+react@11.11.1
       deepmerge: 4.3.1
       react: 18.2.0
     dev: false
 
-  /@theme-ui/components/0.16.0_l64sgceuynwde2uhdnd3qrjrnm:
-    resolution: {integrity: sha512-bhg8qh6iCDnBm58OLtqhg6UTyfv2mlbCNFNiqpEJjw7zuRv6T67ndZHHJH6zQXTAuLFLvXe+aLi3si8VF5gmBg==}
+  /@theme-ui/components/0.16.1_si4dfzcayifj6v7prapdgtesr4:
+    resolution: {integrity: sha512-3v56xR8Rn9LgLzknt4TXLSvnxmAZ//lN8lW87J5yKqp+reJUPDWqItLCOv899sMRcOMpihyMfHUpBRhSG/Aeng==}
     peerDependencies:
       '@emotion/react': ^11.11.1
-      '@theme-ui/theme-provider': ^0.16.0
+      '@theme-ui/theme-provider': ^0.16.1
       react: '>=18'
     dependencies:
       '@emotion/react': 11.11.1_react@18.2.0
       '@styled-system/color': 5.1.2
       '@styled-system/should-forward-prop': 5.1.5
       '@styled-system/space': 5.1.2
-      '@theme-ui/core': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
-      '@theme-ui/css': 0.16.0_@emotion+react@11.11.1
-      '@theme-ui/theme-provider': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/core': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/css': 0.16.1_@emotion+react@11.11.1
+      '@theme-ui/theme-provider': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
       '@types/styled-system': 5.1.16
       react: 18.2.0
     dev: false
@@ -2780,6 +2780,18 @@ packages:
       react: 18.2.0
     dev: false
 
+  /@theme-ui/core/0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye:
+    resolution: {integrity: sha512-9Z0Fn50zdIWre0Apz3ObwfHXZ/zjw7NUhgRrSLYn/gdkJSPZZ8fcaY7Q2rnjfcrMt9DRCg5CPfQGLJqL1NY8xw==}
+    peerDependencies:
+      '@emotion/react': ^11.11.1
+      react: '>=18'
+    dependencies:
+      '@emotion/react': 11.11.1_react@18.2.0
+      '@theme-ui/css': 0.16.1_@emotion+react@11.11.1
+      deepmerge: 4.3.1
+      react: 18.2.0
+    dev: false
+
   /@theme-ui/css/0.16.0_@emotion+react@11.11.1:
     resolution: {integrity: sha512-4kGFw80XTDguziltO8RW7KBhW8ju3aCmbcbLG7ASor2CXmS91jSGr0ILcd973TfJpp/5f8pLfOXxdIiu9PeaVA==}
     peerDependencies:
@@ -2789,15 +2801,24 @@ packages:
       csstype: 3.1.2
     dev: false
 
-  /@theme-ui/global/0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye:
-    resolution: {integrity: sha512-kI0DJ0WQ5Pp+rQIEECYbi5kDBxRrDsywlH1U9dLBtWuy7YcE0Mi6QHMEhHJToqaGKSVzl/9yAbcc26r4zUNZAg==}
+  /@theme-ui/css/0.16.1_@emotion+react@11.11.1:
+    resolution: {integrity: sha512-8TO2DbiqPrRyTlGRIElDak/p0M4ykyd8LkeavyOF/sTE9s93AwyFcle6KYYMEULrJP49SyYiEvTif7J7Z50DhA==}
+    peerDependencies:
+      '@emotion/react': ^11.11.1
+    dependencies:
+      '@emotion/react': 11.11.1_react@18.2.0
+      csstype: 3.1.2
+    dev: false
+
+  /@theme-ui/global/0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye:
+    resolution: {integrity: sha512-2GHRYAz4meF5sn3XxwdFSJMENICSJNj6ZEfQyHaioIXt3t46wXdPpZNjCStxdElQ3QVQgYxY6jR+ILUFORaR0w==}
     peerDependencies:
       '@emotion/react': ^11.11.1
       react: '>=18'
     dependencies:
       '@emotion/react': 11.11.1_react@18.2.0
-      '@theme-ui/core': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
-      '@theme-ui/css': 0.16.0_@emotion+react@11.11.1
+      '@theme-ui/core': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/css': 0.16.1_@emotion+react@11.11.1
       react: 18.2.0
     dev: false
 
@@ -2814,16 +2835,16 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@theme-ui/theme-provider/0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye:
-    resolution: {integrity: sha512-3PESCdcsERm/RfYFJE5Dysm4AgzmA+zv13DV0BIu/v9SFtfbvcoLGkMu5TghxOXcZiVDaps1EyGynovKvrdRYA==}
+  /@theme-ui/theme-provider/0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye:
+    resolution: {integrity: sha512-+/3BJYLIOC2DwTS76cqNhigRQJJ+qOT845DYF7t3TaG2fXDfgh16/DGZSnVjGOGc9dYE3C/ZFAYcVDVwO94Guw==}
     peerDependencies:
       '@emotion/react': ^11.11.1
       react: '>=18'
     dependencies:
       '@emotion/react': 11.11.1_react@18.2.0
-      '@theme-ui/color-modes': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
-      '@theme-ui/core': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
-      '@theme-ui/css': 0.16.0_@emotion+react@11.11.1
+      '@theme-ui/color-modes': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/core': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/css': 0.16.1_@emotion+react@11.11.1
       react: 18.2.0
     dev: false
 
@@ -3527,7 +3548,7 @@ packages:
   /axios/1.4.0:
     resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
     dependencies:
-      follow-redirects: 1.15.2_debug@4.3.4
+      follow-redirects: 1.15.2
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -5859,6 +5880,16 @@ packages:
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
 
+  /follow-redirects/1.15.2:
+    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: false
+
   /follow-redirects/1.15.2_debug@4.3.4:
     resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
     engines: {node: '>=4.0'}
@@ -6279,23 +6310,23 @@ packages:
       generate-robotstxt: 8.0.3
     dev: false
 
-  /gatsby-plugin-theme-ui/0.16.0_uiks5mntbwplde5ap3xbso6xla:
-    resolution: {integrity: sha512-Z4Nu2jhU9FKlnLfQt8oRr18+pTAF2QiGWZwPie/8eL/jxphLWLiI0xf7MmyyKCUg7U18nD1C8mTFLLmG3b4cig==}
+  /gatsby-plugin-theme-ui/0.16.1_lhgtufidugg64v36hfycpt2twa:
+    resolution: {integrity: sha512-k8WakJsjfcxb+VchrGKXAOrSa4wqyTvb6XniwqwdxphqeTsHa8kSmmUlD+bqZuY6kPDiExSgT7UlBQTABEm7EQ==}
     peerDependencies:
       '@emotion/react': ^11.11.1
       '@mdx-js/react': ^1 || ^2
-      '@theme-ui/css': ^0.16.0
-      '@theme-ui/mdx': ^0.16.0
+      '@theme-ui/css': ^0.16.1
+      '@theme-ui/mdx': ^0.16.1
       gatsby: ^4 || ^5
       react: '>=18'
-      theme-ui: ^0.16.0
+      theme-ui: ^0.16.1
     dependencies:
       '@emotion/react': 11.11.1_react@18.2.0
       '@mdx-js/react': 2.3.0_react@18.2.0
       '@theme-ui/mdx': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
       gatsby: 5.11.0_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
-      theme-ui: 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
+      theme-ui: 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
     dev: false
 
   /gatsby-plugin-typescript/5.11.0_gatsby@5.11.0:
@@ -6820,18 +6851,19 @@ packages:
 
   /graphql-compose/9.0.10:
     resolution: {integrity: sha512-UsVoxfi2+c8WbHl2pEB+teoRRZoY4mbWBoijeLDGpAZBSPChnqtSRjp+T9UcouLCwGr5ooNyOQLoI3OVzU1bPQ==}
+    peerDependencies:
+      graphql: ^14.2.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql-type-json: 0.3.2
-    transitivePeerDependencies:
-      - graphql
     dev: false
 
   /graphql-compose/9.0.10_graphql@16.7.1:
     resolution: {integrity: sha512-UsVoxfi2+c8WbHl2pEB+teoRRZoY4mbWBoijeLDGpAZBSPChnqtSRjp+T9UcouLCwGr5ooNyOQLoI3OVzU1bPQ==}
+    peerDependencies:
+      graphql: ^14.2.0 || ^15.0.0 || ^16.0.0
     dependencies:
+      graphql: 16.7.1
       graphql-type-json: 0.3.2_graphql@16.7.1
-    transitivePeerDependencies:
-      - graphql
 
   /graphql-http/1.20.0_graphql@16.7.1:
     resolution: {integrity: sha512-XMTieJkI8NRugwuTjWlT8OQAYH7+DCIuworslawJwRwraq4laJwvWkngYDVBIrDHPhR2sgdL/Bh8Kw5IwDDeRg==}
@@ -10090,19 +10122,19 @@ packages:
   /text-table/0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
 
-  /theme-ui/0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye:
-    resolution: {integrity: sha512-XWMKYxWptYn3wbgyJeINf1PfVk45ZxoeukDtVsxqQ0FblWhbby2eHR36fFv8+YCIs03yhgCZkNzC68uHePWvgg==}
+  /theme-ui/0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye:
+    resolution: {integrity: sha512-QozvNUorEbrFBZUwO5RaaHA+YU/aJLIpeB9vplJERW+vcauldilxhnAjr8KeTv8LY2QMU4iyWWreamJ8/5KzEQ==}
     peerDependencies:
       '@emotion/react': '>=11.1.1'
       react: '>=18'
     dependencies:
       '@emotion/react': 11.11.1_react@18.2.0
-      '@theme-ui/color-modes': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
-      '@theme-ui/components': 0.16.0_l64sgceuynwde2uhdnd3qrjrnm
-      '@theme-ui/core': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
-      '@theme-ui/css': 0.16.0_@emotion+react@11.11.1
-      '@theme-ui/global': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
-      '@theme-ui/theme-provider': 0.16.0_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/color-modes': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/components': 0.16.1_si4dfzcayifj6v7prapdgtesr4
+      '@theme-ui/core': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/css': 0.16.1_@emotion+react@11.11.1
+      '@theme-ui/global': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
+      '@theme-ui/theme-provider': 0.16.1_xo5t6f4ryb2nvjgwj2cxjowrye
       react: 18.2.0
     dev: false
 
