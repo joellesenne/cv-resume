@@ -28,7 +28,7 @@ specifiers:
   gatsby-plugin-robots-txt: 1.8.0
   gatsby-plugin-theme-ui: 0.16.0
   gatsby-source-filesystem: 5.11.0
-  prettier: 3.0.0
+  prettier: 3.0.3
   prop-types: 15.8.1
   react: 18.2.0
   react-dom: 18.2.0
@@ -68,11 +68,11 @@ devDependencies:
   eslint-config-prettier: 8.8.0_eslint@8.45.0
   eslint-plugin-import: 2.27.5_eslint@8.45.0
   eslint-plugin-jsx-a11y: 6.7.1_eslint@8.45.0
-  eslint-plugin-prettier: 5.0.0_yjgmq4klicndfvjoi45ockwhk4
+  eslint-plugin-prettier: 5.0.0_cdjm6iiglpbtku2pdtwdenzocy
   eslint-plugin-react: 7.32.2_eslint@8.45.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.45.0
   gatsby-plugin-pnpm: 1.2.10_gatsby@5.11.0
-  prettier: 3.0.0
+  prettier: 3.0.3
 
 packages:
 
@@ -3527,7 +3527,7 @@ packages:
   /axios/1.4.0:
     resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
     dependencies:
-      follow-redirects: 1.15.2_debug@4.3.4
+      follow-redirects: 1.15.2
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -5306,7 +5306,7 @@ packages:
       semver: 6.3.1
     dev: true
 
-  /eslint-plugin-prettier/5.0.0_yjgmq4klicndfvjoi45ockwhk4:
+  /eslint-plugin-prettier/5.0.0_cdjm6iiglpbtku2pdtwdenzocy:
     resolution: {integrity: sha512-AgaZCVuYDXHUGxj/ZGu1u8H8CYgDY3iG6w5kUFw4AzMVXzB7VvbKgYR4nATIN+OvUrghMbiDLeimVjVY5ilq3w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -5322,7 +5322,7 @@ packages:
     dependencies:
       eslint: 8.45.0
       eslint-config-prettier: 8.8.0_eslint@8.45.0
-      prettier: 3.0.0
+      prettier: 3.0.3
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.5
     dev: true
@@ -5858,6 +5858,16 @@ packages:
 
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+
+  /follow-redirects/1.15.2:
+    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: false
 
   /follow-redirects/1.15.2_debug@4.3.4:
     resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
@@ -6820,18 +6830,19 @@ packages:
 
   /graphql-compose/9.0.10:
     resolution: {integrity: sha512-UsVoxfi2+c8WbHl2pEB+teoRRZoY4mbWBoijeLDGpAZBSPChnqtSRjp+T9UcouLCwGr5ooNyOQLoI3OVzU1bPQ==}
+    peerDependencies:
+      graphql: ^14.2.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql-type-json: 0.3.2
-    transitivePeerDependencies:
-      - graphql
     dev: false
 
   /graphql-compose/9.0.10_graphql@16.7.1:
     resolution: {integrity: sha512-UsVoxfi2+c8WbHl2pEB+teoRRZoY4mbWBoijeLDGpAZBSPChnqtSRjp+T9UcouLCwGr5ooNyOQLoI3OVzU1bPQ==}
+    peerDependencies:
+      graphql: ^14.2.0 || ^15.0.0 || ^16.0.0
     dependencies:
+      graphql: 16.7.1
       graphql-type-json: 0.3.2_graphql@16.7.1
-    transitivePeerDependencies:
-      - graphql
 
   /graphql-http/1.20.0_graphql@16.7.1:
     resolution: {integrity: sha512-XMTieJkI8NRugwuTjWlT8OQAYH7+DCIuworslawJwRwraq4laJwvWkngYDVBIrDHPhR2sgdL/Bh8Kw5IwDDeRg==}
@@ -8830,8 +8841,8 @@ packages:
       fast-diff: 1.3.0
     dev: true
 
-  /prettier/3.0.0:
-    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+  /prettier/3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
