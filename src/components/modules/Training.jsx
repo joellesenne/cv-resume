@@ -1,11 +1,11 @@
-import React from 'react'
-
+const date = new Date()
+const year = date.getFullYear()
 const training = [
-  { id: 1, date: "2012 – Aujourd'hui", description: 'Formation développeur Web', label: 'Tutoriel sur le Web' },
-  { id: 2, date: 'janv. 2018 – mars. 2018', description: "Introduction à l'HTML5 animation et jeux", label: 'https://fun-mooc.fr' },
-  { id: 3, date: 'févr. – mars. 2017', description: "Architecture de l'information", label: 'https://fun-mooc.fr' },
-  { id: 4, date: 'janv. – févr. 2017', description: 'Soyez acteurs du Web', label: 'https://fun-mooc.fr' },
-  { id: 5, date: 'févr. – oct. 2020', description: 'Développeur Web', label: 'https://openclassrooms.com/fr/paths/185-developpeur-web-junior-v2' }
+  { id: 1, date: `2012–${year}`, description: 'Formation développeur Web', label: 'Tutoriel sur le Web' },
+  { id: 2, date: '01/2018 - 03/2018', description: "Introduction à l'HTML5 animation et jeux", label: 'fun-mooc.fr' },
+  { id: 3, date: '02/2017 - 03/2017', description: "Architecture de l'information", label: 'fun-mooc.fr' },
+  { id: 4, date: '01/2017 - 02/2017', description: 'Soyez acteurs du Web', label: 'fun-mooc.fr' },
+  { id: 5, date: '02/2020 - 10/2020', description: 'Développeur Web junior v2', label: 'openclassrooms.com' }
 ]
 
 function Content (props) {
@@ -18,12 +18,12 @@ function Content (props) {
   return content
 }
 
-const Training = () => (
-  <section className='section'>
-    <h2>Formations</h2>
-    <hr />
-    <Content training={training} />
-  </section>
-)
-
-export default Training
+export default function Training() {
+    return (
+        <section className='section'>
+            <h2>Formations</h2>
+            <hr />
+            <Content training={training} />
+        </section>
+    )
+}

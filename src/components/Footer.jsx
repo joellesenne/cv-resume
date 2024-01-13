@@ -1,20 +1,13 @@
-import React from 'react'
 import { FooterStyled } from './styled/FooterStyled'
-
 import Skills from './modules/Skills'
 
-const skills = ['Photographie', 'PAO', 'Musculation', 'Escalade']
-
-class Footer extends React.Component {
-  render() {
+export default function Footer() {
+    const skills = ['Photographie', 'PAO', 'Musculation', 'Voyage']
     return (
-      <FooterStyled>
-        <h2>Centres d'intérêts</h2>
-        <hr />
-        <Skills lists={skills} />
-      </FooterStyled>
+        <FooterStyled>
+            <h2>Centres d’intérêts</h2>
+            <hr />
+            <Skills lists={skills} />
+        </FooterStyled>
     )
-  }
 }
-
-export default Footer

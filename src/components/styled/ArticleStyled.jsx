@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import styled from 'styled-components'
 
 export const ArticleStyled = styled.article`
@@ -8,7 +7,7 @@ export const ArticleStyled = styled.article`
   padding-block-end: 1rem;
   padding-inline: 0.5rem;
   & .description {
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: 700;
   }
   & .content {
@@ -19,6 +18,7 @@ export const ArticleStyled = styled.article`
     opacity: 0.6;
   }
   & .training {
-    font-size: 2rem;
+    font-size: 2vw;
+      line-height: 1.1;
   }
 `
