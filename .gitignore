@@ -57,11 +57,6 @@ typings/
 .env.production
 .env.local
 
-# gatsby files
-.cache/
-public
-dist
-
 # Mac files
 .DS_Store
 
