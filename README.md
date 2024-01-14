@@ -88,7 +88,7 @@ react-scripts start
 - Twitter: [@joellesenne](https://twitter.com/joellesenne)
 - mastodon: [@joellesenne](https://mastodon.social/@joellesenne)
 - Github: [@joellesenne](https://github.com/joellesenne)
-- Codepen : [@joellesenne](https://codepen.io/joellesenne)
+- YouTube: [@joellesenne](https://youtube.com/@joellesenne)
 - LinkedIn: [@joellesenne](https://linkedin.com/in/joellesenne)
 
 ## 🤝 Contributing
