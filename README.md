@@ -84,12 +84,12 @@ react-scripts start
 
 👤 **Joël Lesenne**
 
-- Website: https://joellesenne.dev
-- Twitter: [@joellesenne](https://twitter.com/joellesenne)
-- mastodon: [@joellesenne](https://mastodon.social/@joellesenne)
-- Github: [@joellesenne](https://github.com/joellesenne)
-- YouTube: [@joellesenne](https://youtube.com/@joellesenne)
-- LinkedIn: [@joellesenne](https://linkedin.com/in/joellesenne)
+* Website : [joellesenne.dev](https://joellesenne.dev)
+* Mastodon : [@joellesenne](https://mastodon.social/@joellesenne)
+* Bluesky : [@joellesenne.bsky.social](https://bsky.app/profile/joellesenne.bsky.social)
+* Github : [@joellesenne](https://github.com/joellesenne)
+* Codepen : [@joellesenne](https://codepen.io/joellesenne)
+* LinkedIn : [@joellesenne](https://linkedin.com/in/joellesenne)
 
 ## 🤝 Contributing
 

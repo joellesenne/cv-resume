@@ -7,7 +7,7 @@ export const ArticleStyled = styled.article`
   padding-block-end: 1rem;
   padding-inline: 0.5rem;
   & .description {
-    font-size: 2vw;
+    font-size: 1.3vw;
     font-weight: 700;
   }
   & .content {
@@ -18,7 +18,6 @@ export const ArticleStyled = styled.article`
     opacity: 0.6;
   }
   & .training {
-    font-size: 2vw;
       line-height: 1.1;
   }
 `

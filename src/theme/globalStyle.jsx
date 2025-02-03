@@ -55,7 +55,7 @@ const GlobalStyle = createGlobalStyle`
             max-width: inherit;
             font-family: 'Overpass', sans-serif;
             font-size: 16px;
-            line-height: 1.5;
+            line-height: 1.1;
             letter-spacing: 0.06ex;
             font-kerning: normal;
             font-feature-settings: "liga","kern";
@@ -81,9 +81,8 @@ const GlobalStyle = createGlobalStyle`
             );
         }
         h1, h2, h3, h4, h5, h6 {
-            margin: 0;
             font-family: 'Teko', sans-serif;
-            line-height: 1.1;
+            line-height: 1.3;
             font-weight: 400;
             color: inherit;
             overflow-wrap: break-word;
@@ -96,16 +95,12 @@ const GlobalStyle = createGlobalStyle`
             text-transform: uppercase;
         }
         h2 {
-            margin-block-start: 1.5rem;
-            font-size: 2vw;
+            margin-block-start: 1.3rem;
+            font-size: 1.5vw;
             opacity: 0.6;
         }
-        h3 {font-size: 1.8vw;}
+        h3 {font-size: 1.1vw;}
         h5 {text-transform: lowercase;}
-        p {
-            margin: 0;
-            font-size: 1.75ex;
-        }
         a {
             display: inline;
             margin-block: 0.1rem;
@@ -130,7 +125,7 @@ const GlobalStyle = createGlobalStyle`
         li {
             display: inline-block;
             margin-inline-start: 0.5rem;
-            padding-block-start: .4vw;
+            padding-block-start: .2vw;
             padding-inline: 1vw;
             list-style: none;
             line-height: 1.5;
@@ -161,7 +156,7 @@ const GlobalStyle = createGlobalStyle`
     @layer layout {
         main > * + * {margin-block-start: 1vw;}
         footer, .content {
-            margin-block: 1rem;
+            margin-block: .5rem;
             margin-inline: 1rem;
             padding-block-start: 0.2rem;
             padding-block-end: 1rem;
