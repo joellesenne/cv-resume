@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-// eslint-disable-next-line import/no-unresolved
 // import theme from '../../config/theme'
 
 const GlobalStyle = createGlobalStyle`
